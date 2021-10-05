@@ -75,8 +75,6 @@ class Home extends React.Component{
                 {array}
             </div>
         </div>;
-
-        <p> утин вор</p>
     }
 }
 
