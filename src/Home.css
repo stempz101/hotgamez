@@ -1,0 +1,175 @@
+h1{
+    color : green;
+}
+
+#square {
+     float : left;
+     margin: 100px;
+     position : relative;
+     top : 20%;
+     left : 70px;
+     height: 75px;
+     width: 17.9%;
+     background-color: #1F4068;
+}
+
+#games{
+    position: static;
+}
+
+
+
+#filters{
+    position: relative;
+    width: 90%;
+    height: 100%;
+    display: inline-block;
+}
+
+#filterButtons{
+    position : relative;
+    left : 105px;
+    top : 20px;
+    margin : 20px;
+    float : left;
+
+}
+
+.filterButton{
+    border : none;
+    font-family: Montserrat Alternates;
+    font-size: 24px;
+    line-height: 20px;
+    text-align: center;
+}
+
+#filtSquarePopular{
+    border-radius: 25px;
+    width: 200px;
+    height: 35px;
+    position : relative;
+
+    background-color: white;
+}
+
+#filtSquareNew{
+    border-radius: 25px;
+    width: 200px;
+    height: 35px;
+    position : relative;
+
+    background-color: white;
+}
+
+#filtSquareFive{
+    border-radius: 25px;
+    width: 200px;
+    height: 35px;
+    position : relative;
+
+    background-color: white;
+}
+
+#filtSquareTen{
+    border-radius: 25px;
+    width: 200px;
+    height: 35px;
+    position : relative;
+
+    background-color: white;
+}
+
+#mainPage{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    overflow-x: hidden;
+}
+
+#rearrs{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+#rearrTopLine{
+    position: relative;
+    opacity: 30%;
+    left : -72px;
+    width : 1418px;
+}
+
+#rearrBotLine{
+    opacity: 30%;
+    left : -72px;
+    width : 1418px;
+    position: relative;
+    bottom : 70px;
+}
+
+.rearrButton{
+    background: none;
+    border : none;
+    position: relative;
+    height: 50px;
+    margin : 20px;
+    bottom : 60px;
+
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color : white;
+}
+
+#gameImage{
+    float : left;
+    position : relative;
+    bottom: 170px;
+    width: 100%;
+    height:180px;
+    object-fit:cover;
+    object-position:50% 50%;
+}
+
+#gameName{
+    position: absolute;
+    font-family: Montserrat Alternates;
+    font-size: 16px;
+    top : 50%;
+    left : 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+}
+
+
+#gamePrice{
+    width: 73px;
+    height: 22px;
+
+    position: absolute;
+    top : 70%;
+    left : 82%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22px;
+    color : #1BF128;
+}
+
+#gamePriceFrom{
+    width: 73px;
+    height: 22px;
+
+    position: absolute;
+    top : 70%;
+    left : 75%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22px;
+    color : white;
+}
