@@ -1,5 +1,6 @@
 import React from "react";
 
+//Страница с игрой
 
 class Game extends React.Component{
     render(){

@@ -4,6 +4,8 @@ import "./Home.css";
 
 let dbinput = [{image : "https://steamcdn-a.akamaihd.net/steam/apps/866800/capsule_616x353.jpg?t=1579804618", game : "The walking dead", price : "69"}, {image : "https://steamcdn-a.akamaihd.net/steam/apps/866800/capsule_616x353.jpg?t=1579804618", game : "The walking dead", price : "699"}, {image : "https://steamcdn-a.akamaihd.net/steam/apps/866800/capsule_616x353.jpg?t=1579804618", game : "u", price : "6"}, {image : "https://steamcdn-a.akamaihd.net/steam/apps/866800/capsule_616x353.jpg?t=1579804618", game : "Very very very very long text", price : "6999"}, {image : "https://steamcdn-a.akamaihd.net/steam/apps/866800/capsule_616x353.jpg?t=1579804618", game : "The walking dead", price : "69"}, {image : "https://steamcdn-a.akamaihd.net/steam/apps/866800/capsule_616x353.jpg?t=1579804618", game : "The walking dead", price : "69"}, {image : "https://steamcdn-a.akamaihd.net/steam/apps/866800/capsule_616x353.jpg?t=1579804618", game : "The walking dead", price : "699"}, {image : "https://steamcdn-a.akamaihd.net/steam/apps/866800/capsule_616x353.jpg?t=1579804618", game : "u", price : "6"}, {image : "https://steamcdn-a.akamaihd.net/steam/apps/866800/capsule_616x353.jpg?t=1579804618", game : "Very very very very long text", price : "6999"}, {image : "https://steamcdn-a.akamaihd.net/steam/apps/866800/capsule_616x353.jpg?t=1579804618", game : "The walking dead", price : "69"}, {image : "https://steamcdn-a.akamaihd.net/steam/apps/866800/capsule_616x353.jpg?t=1579804618", game : "The walking dead", price : "69"}, {image : "https://steamcdn-a.akamaihd.net/steam/apps/866800/capsule_616x353.jpg?t=1579804618", game : "The walking dead", price : "69"}, {image : "https://steamcdn-a.akamaihd.net/steam/apps/866800/capsule_616x353.jpg?t=1579804618", game : "The walking dead", price : "69"}, {image : "https://steamcdn-a.akamaihd.net/steam/apps/866800/capsule_616x353.jpg?t=1579804618", game : "The walking dead", price : "69"}]
 let arr = [];
+//Эта херота отвечает за полученную с БД инфу. dbinput на данный момент что-то типа полученой инфы с бд
+//Функция снизу делает массив игр в div формате
 for(let i = 0; i < dbinput.length; i++){
     if(i + 1 === dbinput.length){
         arr.push(
@@ -33,7 +35,7 @@ class Home extends React.Component{
         const array = arr;
 
         return <div id = "mainPage">
-            <ul style={{ listStyleType: "none" }} id = "filters">
+            <ul style={{ listStyleType: "none" }} id = "filters"> {/*Простой фильтер*/}
                 <li id = "filterButtons">
                     <button id = "filtSquarePopular" className={"filterButton"}>Популярное</button>
                 </li>
@@ -49,7 +51,7 @@ class Home extends React.Component{
             </ul>
             <div id = "rearrs">
                 <hr id = "rearrTopLine" color={"black"}/>
-                <ul style={{listStyleType : "none"}} id ="filtRearrangers">
+                <ul style={{listStyleType : "none"}} id ="filtRearrangers"> {/*Более широкий фильтер*/}
                     <li id = "filterButtons">
                         <button id = "priceRearr" className={"rearrButton"}>Цена</button>
                     </li>
