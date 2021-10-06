@@ -4,12 +4,13 @@ h1{
 
 #square {
      float : left;
-     margin: 100px;
+    border-radius: 5px;
+    margin: 7em 0.5em 5.6em 4em;
      position : relative;
      top : 20%;
-     left : 70px;
-     height: 75px;
-     width: 17.9%;
+     left : 6em;
+     height: 85px;
+     width: 330px;
      background-color: #1F4068;
 }
 
@@ -95,14 +96,14 @@ h1{
 #rearrTopLine{
     position: relative;
     opacity: 30%;
-    left : -72px;
-    width : 1418px;
+    left : -26px;
+    width : 1534px;
 }
 
 #rearrBotLine{
     opacity: 30%;
-    left : -72px;
-    width : 1418px;
+    left : -26px;
+    width : 1534px;
     position: relative;
     bottom : 70px;
 }
@@ -126,11 +127,11 @@ h1{
 #gameImage{
     float : left;
     position : relative;
-    bottom: 170px;
-    width: 100%;
-    height:180px;
+    bottom: 128px;
+    width: 330px;
+    height:130px;
     object-fit:cover;
-    object-position:50% 50%;
+    object-position:50% 0%;
 }
 
 #gameName{
@@ -172,4 +173,8 @@ h1{
     font-size: 15px;
     line-height: 22px;
     color : white;
+}
+
+#footer{
+   color: red;
 }

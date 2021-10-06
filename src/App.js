@@ -28,6 +28,7 @@ const BasicExample = () => (
 
         <Route exact path="/" component={Home} />
         <Route path="/about" component={Game} />
+
           <footer>
               <h3 id = "settingsButton">Настройки</h3>
               <h3 id = "ctext">© 2021 HotGamez</h3>
@@ -35,6 +36,7 @@ const BasicExample = () => (
               <h3 id = "usButton">О нас</h3>
 
           </footer>
+
       </div>
     </Router>
 );
