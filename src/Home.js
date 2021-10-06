@@ -65,9 +65,6 @@ class Home extends React.Component{
                         <button id = "dateRearr" className={"rearrButton"}>Дата выхода</button>
                     </li>
                     <li id = "filterButtons">
-                        <button id = "reviewsRearr" className={"rearrButton"}>Отзывы</button>
-                    </li>
-                    <li id = "filterButtons">
                         <button id = "popularRearr" className={"rearrButton"}>Популярность</button>
                     </li>
                 </ul>
