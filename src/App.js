@@ -6,8 +6,12 @@ import Game from "./Game";
 import "./App.css";
 
 
-const BasicExample = () => (
+
+    const BasicExample = () => (
+
+
     <Router>
+
       <div>
 
           <header>
@@ -35,11 +39,13 @@ const BasicExample = () => (
               <h3 id = "languageButton">Русский</h3>
               <h3 id = "usButton">О нас</h3>
 
-          </footer>
+      </footer>
 
       </div>
     </Router>
+
 );
+
 
 
 

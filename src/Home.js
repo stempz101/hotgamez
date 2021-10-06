@@ -1,7 +1,6 @@
 import React from "react";
 import "./Home.css";
 
-
 let dbinput = [{image : "https://steamcdn-a.akamaihd.net/steam/apps/866800/capsule_616x353.jpg?t=1579804618", game : "The walking dead", price : "69"}, {image : "https://steamcdn-a.akamaihd.net/steam/apps/866800/capsule_616x353.jpg?t=1579804618", game : "The walking dead", price : "699"}, {image : "https://steamcdn-a.akamaihd.net/steam/apps/866800/capsule_616x353.jpg?t=1579804618", game : "u", price : "6"}, {image : "https://steamcdn-a.akamaihd.net/steam/apps/866800/capsule_616x353.jpg?t=1579804618", game : "Very very very very long text", price : "6999"}, {image : "https://steamcdn-a.akamaihd.net/steam/apps/866800/capsule_616x353.jpg?t=1579804618", game : "The walking dead", price : "69"}, {image : "https://steamcdn-a.akamaihd.net/steam/apps/866800/capsule_616x353.jpg?t=1579804618", game : "The walking dead", price : "69"}, {image : "https://steamcdn-a.akamaihd.net/steam/apps/866800/capsule_616x353.jpg?t=1579804618", game : "The walking dead", price : "699"}, {image : "https://steamcdn-a.akamaihd.net/steam/apps/866800/capsule_616x353.jpg?t=1579804618", game : "u", price : "6"}, {image : "https://steamcdn-a.akamaihd.net/steam/apps/866800/capsule_616x353.jpg?t=1579804618", game : "Very very very very long text", price : "6999"}, {image : "https://steamcdn-a.akamaihd.net/steam/apps/866800/capsule_616x353.jpg?t=1579804618", game : "The walking dead", price : "69"}, {image : "https://steamcdn-a.akamaihd.net/steam/apps/866800/capsule_616x353.jpg?t=1579804618", game : "The walking dead", price : "69"}, {image : "https://steamcdn-a.akamaihd.net/steam/apps/866800/capsule_616x353.jpg?t=1579804618", game : "The walking dead", price : "69"}, {image : "https://steamcdn-a.akamaihd.net/steam/apps/866800/capsule_616x353.jpg?t=1579804618", game : "The walking dead", price : "69"}, {image : "https://steamcdn-a.akamaihd.net/steam/apps/866800/capsule_616x353.jpg?t=1579804618", game : "The walking dead", price : "69"}]
 let arr = [];
 //Эта херота отвечает за полученную с БД инфу. dbinput на данный момент что-то типа полученой инфы с бд
@@ -58,15 +57,16 @@ class Home extends React.Component{
                     <li id = "filterButtons">
                         <button id = "genreRearr" className={"rearrButton"}>Жанр</button>
                     </li>
-                    <li id = "filterButtons">
+                    {/* <li id = "filterButtons">
                         <button id = "typeRearr" className={"rearrButton"}>Тип</button>
-                    </li>
+                    </li>*/}
                     <li id = "filterButtons">
                         <button id = "dateRearr" className={"rearrButton"}>Дата выхода</button>
                     </li>
                     <li id = "filterButtons">
                         <button id = "popularRearr" className={"rearrButton"}>Популярность</button>
                     </li>
+
                 </ul>
                 <hr id = "rearrBotLine" color={"black"}/>
             </div>
@@ -75,6 +75,7 @@ class Home extends React.Component{
             </div>
         </div>;
     }
+
 }
 
 

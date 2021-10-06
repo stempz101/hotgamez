@@ -1,15 +1,15 @@
 header{
     background-color: #162447;
     width: 100%;
-    height : 100px;
+    height : 80px;
 }
 
 #image{
     position: absolute;
     height: 5%;
-    width: 6%;
-    left: 3%;
-    top: 0.1%;
+    width: 5%;
+    left: 4%;
+    top: 0%;
     border-radius: 0px;
 
 }
@@ -18,7 +18,7 @@ header{
     position: absolute;
     width: 30%;
     height: 2.3%;
-    left: 46%;
+    left: 49%;
     top: 1.2%;
     border-radius: 10px;
     font-style : italic;
@@ -37,15 +37,15 @@ header{
     position: absolute;
     width: 2%;
     height: 2%;
-    left: 73.9%;
+    left: 77%;
     top: 1.6%;
 }
 
 #profileicon{
     position: absolute;
-    width: 1.9%;
+    width: 2%;
     height: 2%;
-    left: 82.6%;
+    left: 86%;
     top: 1.6%;
 
 }
@@ -54,7 +54,7 @@ header{
     position: absolute;
     width: 2%;
     height: 2%;
-    left: 78.8%;
+    left: 82%;
     top: 1.6%;
 }
 
@@ -85,7 +85,7 @@ html, body {
 }
 
 footer{
-    position: relative;
+    position: absolute;
     background-color : #1F4168;
     opacity : 90;
     width : 100%;
@@ -102,7 +102,7 @@ footer{
     left : 6%;
     top : 10%;
     color : white;
-    font-family: Montserrat Alternates;
+    font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -116,7 +116,7 @@ footer{
     left : 43%;
     top : 10%;
     color : white;
-    font-family: Montserrat Alternates;
+    font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -130,7 +130,7 @@ footer{
     left : 82%;
     top : 10%;
     color : white;
-    font-family: Montserrat Alternates;
+    font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -144,7 +144,7 @@ footer{
     left : 92%;
     top : 10%;
     color : white;
-    font-family: Montserrat Alternates;
+    font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
