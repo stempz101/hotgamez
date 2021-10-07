@@ -29,8 +29,8 @@ h1{
 
 #filterButtons{
     position : relative;
-    left : 105px;
-    top : 20px;
+    left : 100px;
+    top : 17px;
     margin : 20px;
     float : left;
 
@@ -45,6 +45,7 @@ h1{
 }
 
 #filtSquarePopular{
+    top: 5px;
     border-radius: 25px;
     width: 200px;
     height: 26px;
@@ -54,6 +55,7 @@ h1{
 }
 
 #filtSquareNew{
+    top: 5px;
     border-radius: 25px;
     width: 200px;
     height: 26px;
@@ -63,6 +65,7 @@ h1{
 }
 
 #filtSquareFive{
+    top: 5px;
     border-radius: 25px;
     width: 200px;
     height: 26px;
@@ -72,6 +75,7 @@ h1{
 }
 
 #filtSquareTen{
+    top: 5px;
     border-radius: 25px;
     width: 200px;
     height: 26px;
@@ -103,11 +107,11 @@ h1{
 
 #rearrBotLine{
     opacity: 20%;
-    top: -75px;
+    top: -80px;
     left : -26px;
     width : 1534px;
     position: relative;
-    bottom : 70px;
+    bottom : 80px;
 }
 
 .rearrButton{
@@ -176,5 +180,62 @@ h1{
     line-height: 22px;
     color : white;
 }
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+#priceRearr:active{
+    color:darkgrey;
+}
+#priceRearr:hover{
+    opacity:60%;
+}
+
+#genreRearr:active{
+    color:darkgrey;
+}
+#genreRearr:hover{
+    opacity:60%;
+}
+
+#dateRearr:active{
+    color:darkgrey;
+}
+#dateRearr:hover{
+    opacity:60%;
+}
+
+#popularRearr:active{
+    color:darkgrey;
+}
+#popularRearr:hover{
+    opacity:60%;
+}
+
+#filtSquarePopular:active{
+    background-color: darkgrey;
+}
+#filtSquarePopular:hover{
+    opacity:60%;
+}
+
+#filtSquareNew:active{
+    background-color: darkgrey;
+}
+#filtSquareNew:hover{
+    opacity:60%;
+}
+
+#filtSquareFive:active{
+    background-color: darkgrey;
+}
+#filtSquareFive:hover{
+    opacity:60%;
+}
+
+#filtSquareTen:active{
+    background-color: darkgrey;
+}
+#filtSquareTen:hover{
+    opacity:60%;
+}
+
 
 
