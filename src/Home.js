@@ -52,7 +52,7 @@ class Home extends React.Component{
                 <hr id = "rearrTopLine" color={"black"}/>
                 <ul style={{listStyleType : "none"}} id ="filtRearrangers"> {/*Более широкий фильтер*/}
                     <li id = "filterButtons">
-                        <button id = "priceRearr" className={"rearrButton"}>Цена</button>
+                        <button id = "priceRearr" className={"rearrButton"} tabIndex={0}>Цена</button>
                     </li>
                     <li id = "filterButtons">
                         <button id = "genreRearr" className={"rearrButton"}>Жанр</button>
