@@ -30,7 +30,7 @@ h1{
 #filterButtons{
     position : relative;
     left : 100px;
-    top : 17px;
+    top : 60px;
     margin : 20px;
     float : left;
 
@@ -54,6 +54,8 @@ h1{
     background-color: white;
 }
 
+
+
 #filtSquareNew{
     top: 5px;
     border-radius: 25px;
@@ -63,6 +65,7 @@ h1{
 
     background-color: white;
 }
+
 
 #filtSquareFive{
     top: 5px;
@@ -99,7 +102,7 @@ h1{
 
 #rearrTopLine{
     position: relative;
-    top: 5px;
+    top: 45px;
     opacity: 20%;
     left : -26px;
     width : 1534px;
@@ -107,7 +110,7 @@ h1{
 
 #rearrBotLine{
     opacity: 20%;
-    top: -80px;
+    top: -40px;
     left : -26px;
     width : 1534px;
     position: relative;

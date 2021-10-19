@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import MediaQuery from 'react-responsive'
 import Home from "./Home";
 import Game from "./Game";
+import AbobUs from "./AbobUs";
 import "./App.css";
 
 
@@ -31,13 +32,13 @@ import "./App.css";
 
 
         <Route exact path="/" component={Home} />
-        <Route path="/about" component={Game} />
+        <Route path="/about" component={AbobUs} />
 
           <footer>
               <h3 id = "settingsButton">Настройки</h3>
               <h3 id = "ctext">© 2021 HotGamez</h3>
               <h3 id = "languageButton">Русский</h3>
-              <h3 id = "usButton">О нас</h3>
+              <Link to="/about"><h3 id = "usButton">О нас</h3></Link>
 
       </footer>
 
