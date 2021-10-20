@@ -6,6 +6,10 @@ header{
 }
 
 
+
+
+
+
 #image{
     position: absolute;
     height: 100%;
@@ -89,8 +93,8 @@ html, body {
 
 footer{
     position:absolute;
-    left:0px;
-    bottom: 0px;
+    left:0%;
+    bottom: 0%;
     height:70px;
     width:100%;
 
