@@ -1,5 +1,8 @@
 import React from "react";
 import "./Home.css";
+import $ from "jquery";
+
+
 
 let dbinput = [{image : "https://steamcdn-a.akamaihd.net/steam/apps/866800/capsule_616x353.jpg?t=1579804618", game : "The walking dead", price : "69"}, {image : "https://steamcdn-a.akamaihd.net/steam/apps/866800/capsule_616x353.jpg?t=1579804618", game : "The walking dead", price : "699"}, {image : "https://steamcdn-a.akamaihd.net/steam/apps/866800/capsule_616x353.jpg?t=1579804618", game : "u", price : "6"}, {image : "https://steamcdn-a.akamaihd.net/steam/apps/866800/capsule_616x353.jpg?t=1579804618", game : "Very very very very long text", price : "6999"}, {image : "https://steamcdn-a.akamaihd.net/steam/apps/866800/capsule_616x353.jpg?t=1579804618", game : "The walking dead", price : "69"}, {image : "https://steamcdn-a.akamaihd.net/steam/apps/866800/capsule_616x353.jpg?t=1579804618", game : "The walking dead", price : "69"}, {image : "https://steamcdn-a.akamaihd.net/steam/apps/866800/capsule_616x353.jpg?t=1579804618", game : "The walking dead", price : "699"}, {image : "https://steamcdn-a.akamaihd.net/steam/apps/866800/capsule_616x353.jpg?t=1579804618", game : "u", price : "6"}, {image : "https://steamcdn-a.akamaihd.net/steam/apps/866800/capsule_616x353.jpg?t=1579804618", game : "Very very very very long text", price : "6999"}, {image : "https://steamcdn-a.akamaihd.net/steam/apps/866800/capsule_616x353.jpg?t=1579804618", game : "The walking dead", price : "69"}, {image : "https://steamcdn-a.akamaihd.net/steam/apps/866800/capsule_616x353.jpg?t=1579804618", game : "The walking dead", price : "69"}, {image : "https://steamcdn-a.akamaihd.net/steam/apps/866800/capsule_616x353.jpg?t=1579804618", game : "The walking dead", price : "69"}, {image : "https://steamcdn-a.akamaihd.net/steam/apps/866800/capsule_616x353.jpg?t=1579804618", game : "The walking dead", price : "69"}, {image : "https://steamcdn-a.akamaihd.net/steam/apps/866800/capsule_616x353.jpg?t=1579804618", game : "The walking dead", price : "69"}]
 let arr = [];
@@ -30,9 +33,20 @@ for(let i = 0; i < dbinput.length; i++){
 
 class Home extends React.Component{
 
-    render(){
-        const array = arr;
+        componentDidMount()                                                 /* чтобы фокус не пропадал после клика */
+        {
+            $("#filtSquarePopular").mousedown(function () {
+                $("#filtSquarePopular").css("background-color", "darkgrey");
+            });
+        }
 
+
+
+
+
+render(){
+
+    const array = arr;
         return <div id = "mainPage">
             <ul style={{ listStyleType: "none" }} id = "filters"> {/*Простой фильтер*/}
                 <li id = "filterButtons">

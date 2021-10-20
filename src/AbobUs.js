@@ -1,7 +1,14 @@
 import React from "react";
 import "./AbobUs.css";
+import $ from 'jquery';
 
 class AbobUs extends React.Component{
+    componentDidMount() {
+        $( "#wishes" ).mousedown(function() {
+           $("#wishes").css("opacity", "1");
+        });
+    }
+
     render(){
         return <div id = "aboutus">
             <div id = "forcust">
@@ -14,13 +21,14 @@ class AbobUs extends React.Component{
                 <br></br>
                 <span className = "subText">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ви звернулися за адресою, так як HotGamez - це інтернет-сервіс, що допомагає покупцеві знайти, порівняти і визначитись з вибором гри, магазину і зробити покупку. Ми не торгуємо, ми рекламуємо наявні у Вас товари. Таким чином, після розміщення товарів на HotGamez, наші відвідувачі стають Вашими покупцями.</span>
             </div>
-            <div id = "conf">
+            <div  id = "conf">
                 <span className={"mainText"}>Конфіденційність</span>
             </div>
             <div id = "questions">
                 <span className={"mainText"}>Питання та побажання по сайту</span>
             </div>
             <div id = "wishesDiv">
+
                 <form>
                     <textarea placeholder={"Напишіть тут своє питання/побажання..."} id={"wishes"}/>
                     <span id="wishcircle"></span>
@@ -28,6 +36,7 @@ class AbobUs extends React.Component{
                 </form>
             </div>
         </div>
+
     }
 }
 
