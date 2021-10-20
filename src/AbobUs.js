@@ -38,6 +38,14 @@ class AbobUs extends React.Component{
                     <img src="https://imgur.com/l96ZOpj.png" alt="sendwish" id = "sendwish"/>
                 </form>
             </div>
+            <span id = "feedbackText">Зворотній зв'язок</span>
+            <div id = "feedback">
+
+                <img src="https://i.imgur.com/M6yallk.png" alt="telegram logo" id = "telegram"/>
+                <img src="https://i.imgur.com/JKRkD6S.png" alt="instagram logo" id = "instagram"/>
+                <img src="https://i.imgur.com/tUSYFTL.png" alt="discord logo" id = "discord"/>
+
+            </div>
         </div>
 
     }

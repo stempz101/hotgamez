@@ -26,20 +26,21 @@
     width : 850px;
     height: 30%;
     top: 3%;
-    left : 1000px;
+    left : 1100px;
 }
+
 #vlasnT{
     position: absolute;
-    width : 850px;
+    width : 700px;
     height: 30%;
-    top: 3%;
-    left : 1000px;
+    top: 15%;
+    left : 1100px;
 }
 
 #conf{
     position: absolute;
-    left : 3%;
-    top : 60%;
+    left : 1100px;
+    top : 50%;
 }
 
 #questions{
@@ -47,6 +48,29 @@
     left : 3%;
     top : 72%;
 }
+#feedback{
+
+    margin-top: 800px;
+    float: right;
+
+
+}
+
+#feedbackText{
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    color : white;
+    margin-left: 1500px;
+    margin-top: 500px;
+}
+#telegram, #instagram, #discord{
+    width: 100px;
+}
+
 
 
 
