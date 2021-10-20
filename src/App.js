@@ -1,8 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import MediaQuery from 'react-responsive'
 import Home from "./Home";
-import Game from "./Game";
 import AbobUs from "./AbobUs";
 import "./App.css";
 
@@ -16,9 +14,9 @@ import "./App.css";
       <div>
 
           <header>
-              <Link to="/">
-                  <img src="https://imgur.com/zkFCRqh.png" alt="" id = "image"/>
-              </Link>
+              <a href ="/">
+                  <img src="https://imgur.com/zkFCRqh.png" alt="" id={"image"}/>
+              </a>
               <form>
                   <input type={"text"} placeholder={"Введите название игры..."} id={"search"}/>
               </form>

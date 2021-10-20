@@ -24,13 +24,13 @@ h1{
     position: relative;
     width: 90%;
     height: 100%;
+    top : 135px;
     display: inline-block;
 }
 
 #filterButtons{
     position : relative;
     left : 100px;
-    top : 60px;
     margin : 20px;
     float : left;
 
@@ -88,6 +88,7 @@ h1{
 }
 
 #mainPage{
+    position: static;
     width: 100%;
     height: 100%;
     display: inline-block;
@@ -103,13 +104,13 @@ h1{
 #rearrTopLine{
     position: relative;
     top: 45px;
-    opacity: 20%;
+    opacity: 0.2;
     left : -26px;
     width : 1534px;
 }
 
 #rearrBotLine{
-    opacity: 20%;
+    opacity: 0.2;
     top: -40px;
     left : -26px;
     width : 1534px;
@@ -185,62 +186,62 @@ h1{
 }
 /*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 #filtSquarePopular:focus{
-    opacity:60%;
+    opacity:0.6;
 }
 #priceRearr:active{
     color:darkgrey;
 }
 #priceRearr:hover{
-    opacity:60%;
+    opacity:0.6;
 }
 
 #genreRearr:active{
     color:darkgrey;
 }
 #genreRearr:hover{
-    opacity:60%;
+    opacity:0.6;
 }
 
 #dateRearr:active{
     color:darkgrey;
 }
 #dateRearr:hover{
-    opacity:60%;
+    opacity:0.6;
 }
 
 #popularRearr:active{
     color:darkgrey;
 }
 #popularRearr:hover{
-    opacity:60%;
+    opacity:0.6;
 }
 
 #filtSquarePopular:active{
     background-color: darkgrey;
 }
 #filtSquarePopular:hover{
-    opacity:60%;
+    opacity:0.6;
 }
 
 #filtSquareNew:active{
     background-color: darkgrey;
 }
 #filtSquareNew:hover{
-    opacity:60%;
+    opacity:0.6;
 }
 
 #filtSquareFive:active{
     background-color: darkgrey;
 }
 #filtSquareFive:hover{
-    opacity:60%;
+    opacity:0.6;
 }
 
 #filtSquareTen:active{
     background-color: darkgrey;
 }
 #filtSquareTen:hover{
-    opacity:60%;
+    opacity:0.6;
 }
 
 
