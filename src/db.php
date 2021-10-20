@@ -1,6 +1,6 @@
 <?php
-   $mysql = new mysql ("hotgamez.mysql.tools", "hotgamez_db", "cavq5Fn5", "hotgamez_db");
-   $result = $mysql->query("SELECT `name_game` FROM `game`");
+   $mysqli = new mysqli ("hotgamez.mysql.tools", "hotgamez_db", "cavq5Fn5", "hotgamez_db");
+   $result = $mysqli->query("SELECT `name_game` FROM `game`");
    $games- = $result->fetch_assoc();
    if(count($games) == 0) {
     echo "Error #666";
@@ -9,7 +9,7 @@
    print_r($games);
    exit();
 
-   $mysql->close ();
+   $mysqli->close ();
 
    header('Location: /');
 
