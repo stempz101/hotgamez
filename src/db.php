@@ -1,5 +1,5 @@
 <?php
-   $mysql = new mysql ("hotgamez.mysql.tools", "hotgamez_group", "As-191-cool", "hotgamez_main");
+   $mysql = new mysql ("hotgamez.mysql.tools", "hotgamez_db", "cavq5Fn5", "hotgamez_db");
    $result = $mysql->query("SELECT `name_game` FROM `game`");
    $games- = $result->fetch_assoc();
    print_r($games);
