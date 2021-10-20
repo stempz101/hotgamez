@@ -46,7 +46,7 @@ header{
 
 #profileicon{
     position: absolute;
-    width: 2%;
+    width: 1.9%;
     height: 40%;
     left: 86%;
     top: 26%;
@@ -55,7 +55,7 @@ header{
 
 #heart{
     position: absolute;
-    width: 2%;
+    width: 1.9%;
     height: 40%;
     left: 82%;
     top: 26%;
@@ -88,13 +88,17 @@ html, body {
 }
 
 footer{
-    position: absolute;
+    position:absolute;
+    left:0px;
+    bottom: 0px;
+    height:70px;
+    width:100%;
+
     background-color : #1F4168;
     opacity : 90;
-    width : 100%;
-    height : 7%;
+
     max-height: 75.6px;
-    bottom: 0%;
+
     backdrop-filter: blur(4px);
 
 }
