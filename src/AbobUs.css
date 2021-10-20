@@ -7,20 +7,33 @@
     overflow-x: hidden;
 }
 
-#forcust{
+#forcustH{
     position: absolute;
-    width : 95%;
+    width : 850px;
     height: 30%;
-    top : 3%;
-    left : 3%;
+    top : 5%;
+    left :450px;
+}
+#forcustT{
+    position: absolute;
+    width : 900px;
+    top : 15%;
+    left :150px;
 }
 
-#vlasn{
+#vlasnH{
     position: absolute;
-    width : 95%;
+    width : 850px;
     height: 30%;
-    top : 38%;
-    left : 3%;
+    top: 3%;
+    left : 1000px;
+}
+#vlasnT{
+    position: absolute;
+    width : 850px;
+    height: 30%;
+    top: 3%;
+    left : 1000px;
 }
 
 #conf{
@@ -34,6 +47,8 @@
     left : 3%;
     top : 72%;
 }
+
+
 
 .mainText{
 
