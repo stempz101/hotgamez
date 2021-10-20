@@ -7,4 +7,6 @@
 
    $mysql->close ();
 
+   header('Location: /');
+
 ?>
