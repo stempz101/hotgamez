@@ -80,13 +80,13 @@
     line-height: 44px;
     color : white;
     float: right;
-    right: 100px;
-    bottom: 160px;
+    right: 150px;
+    bottom: 215px;
 }
 #feedback{
     position: relative;
-    left: 220px;
-    bottom: 100px;
+    left: 170px;
+    bottom: 160px;
 }
 
 #telegram, #instagram, #discord {
@@ -100,7 +100,7 @@
     position: relative;
     width: 800px;
     height: 300px;
-    margin-bottom : 100px;
+
     left: 135px;
     bottom: 75px;
     border-radius: 20px;
