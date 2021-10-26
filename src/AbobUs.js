@@ -5,7 +5,7 @@ import $ from 'jquery';
 class AbobUs extends React.Component{
     componentDidMount() {
         $( "#wishes" ).mousedown(function() {
-           $("#wishes").css("opacity", "1");
+            $("#wishes").css("opacity", "1");
         });
     }
 
@@ -39,7 +39,7 @@ class AbobUs extends React.Component{
                 </form>
             </div>
             <div id = "feedbackText">
-            <span >Зворотній зв'язок</span>
+                <span >Зворотній зв'язок</span>
             </div>
             <div id = "feedback">
 

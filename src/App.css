@@ -65,7 +65,309 @@ header{
     top: 26%;
 }
 
+#login{
+    position: absolute;
+    width: 928px;
+    height: 514px;
+    left: 505px;
+    top: 283px;
 
+    background: rgba(72, 126, 189);
+    border-radius: 50px;
+    visibility: hidden;
+    z-index: 1000;
+}
+
+#logButtons{
+    position: relative;
+    width : 0;
+    height : 0;
+    top : -280px;
+    left : -520px;
+}
+
+#vhod{
+    position: absolute;
+    width: 97px;
+    height: 44px;
+    left: 551px;
+    top: 300px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+#upperline{
+    position: absolute;
+    width: 928px;
+    height: 1px;
+    left: 505px;
+    top: 350px;
+
+    border: 1px solid rgba(33, 70, 114, 0.85);
+    border-radius: 50px;
+}
+
+#mailtext{
+    position: absolute;
+    width: 353px;
+    height: 22px;
+    left: 551px;
+    top: 384px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+#mailinput{
+    position: absolute;
+    width: 564px;
+    height: 53px;
+    left: 551px;
+    top: 413px;
+
+    background: #FFFFFF;
+    border-radius: 35px;
+    outline: none;
+}
+
+#passtext{
+    position: absolute;
+    width: 71px;
+    height: 22px;
+    left: 554px;
+    top: 530px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+#passinput{
+    position: absolute;
+    width: 564px;
+    height: 53px;
+    left: 554px;
+    top: 556px;
+
+    background: #FFFFFF;
+    border-radius: 35px;
+    outline: none;
+    resize: none;
+
+}
+
+#rememberme{
+    position: absolute;
+    width: 105px;
+    height: 15px;
+    left: 575px;
+    top: 620px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#rememberme::after{
+    position : relative;
+    content : "Запомнить меня";
+    left : 70px;
+}
+
+#forgotpass{
+    position: absolute;
+    width: 103px;
+    height: 15px;
+    left: 1015px;
+    top: 624px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #F06E83;
+}
+
+#logingIn{
+    position: absolute;
+    width: 277px;
+    height: 44px;
+    left: 694px;
+    top: 693px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    background: #E43F5A;
+    border-radius: 35px;
+
+}
+
+#lineUp{
+
+    position: absolute;
+    width: 169px;
+    height: 0px;
+    left: 1063px;
+    top: 455px;
+
+    border: 1px solid rgba(33, 70, 114, 0.85);
+    border-radius: 50px;
+    transform: rotate(-90deg);
+}
+
+#lineDown{
+    position: absolute;
+    width: 169px;
+    height: 0px;
+    left: 1063px;
+    top: 663px;
+
+    border: 1px solid rgba(33, 70, 114, 0.85);
+    border-radius: 50px;
+    transform: rotate(-90deg);
+}
+
+#textOr{
+    position: absolute;
+    width: 24px;
+    height: 15px;
+    left: 1136px;
+    top: 559px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#enterUsing{
+
+    position: absolute;
+    width: 232px;
+    height: 44px;
+    left: 1178px;
+    top: 391px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+}
+
+#googleRect{
+    position: absolute;
+    width: 232px;
+    height: 53px;
+    left: 1178px;
+    top: 440px;
+
+    background: #D3D3D3;
+    border-radius: 35px;
+}
+
+#googleText{
+    position: absolute;
+    width: 87px;
+    height: 29px;
+
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    top : 20%;
+    left : 32%;
+    color: #FFFFFF;
+}
+
+#googleImage{
+    position: absolute;
+    height : 100%;
+}
+
+#faceRect{
+    position: absolute;
+    width: 232px;
+    height: 53px;
+    left: 1178px;
+    top: 530px;
+
+    background: #D3D3D3;
+    border-radius: 35px;
+}
+
+#faceText{
+    position: absolute;
+    width: 120px;
+    height: 29px;
+    top : 20%;
+    left : 30%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+#faceImage{
+    position: absolute;
+    height : 90%;
+    top : 5%;
+    left : -6%;
+}
 
 body{
     width: 100%;
@@ -75,7 +377,6 @@ body{
     background : linear-gradient(to bottom right, #1F4068 , #2F64A4 80%);
     overflow-x : hidden;
     overflow-y: auto;
-
 }
 
 
