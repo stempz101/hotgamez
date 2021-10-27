@@ -3,14 +3,13 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Home from "./Home";
 import AbobUs from "./AbobUs";
 import "./App.css";
-import * as ReactDom from "@testing-library/react";
 import $ from 'jquery';
 
 
 let loginhidden = true;
 
 function logClick(){
-        $(".container").not("login").addClass("blur");
+        $(".container > *:not(#login):not(header)").css("filter", 'blur(3px)')
 
     let page = window.location.href.split('/')[window.location.href.split("/").length - 1];
 
@@ -25,13 +24,7 @@ function logClick(){
 
     }
 
-function loginFocusOut(){
-    alert("unfocused")
-}
 
-function focused(){
-    alert("focused")
-}
 
 
 const BasicExample = () => (
@@ -40,7 +33,7 @@ const BasicExample = () => (
 
     <Router>
 
-      <div class = "container">
+      <div className = "container">
 
           <header >
               <a href ="/">
@@ -56,7 +49,7 @@ const BasicExample = () => (
               <img src="https://i.imgur.com/comJ0Fm.png" alt="wishlist" id = "heart"/>
           </header>
 
-          <div class = "login" id = "login">
+          <div className="login" id = "login">
 
               <div class="wrapper wrapper_blur">
                   <div class="content"></div>
@@ -102,8 +95,7 @@ const BasicExample = () => (
               <h3 id = "languageButton">Русский</h3>
               <Link to="/about"><h3 id = "usButton">О нас</h3></Link>
 
-      </footer>
-
+          </footer>
       </div>
     </Router>
 
