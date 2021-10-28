@@ -37,8 +37,31 @@ class Home extends React.Component{
 
         componentDidMount()                                                 /* чтобы фокус не пропадал после клика */
         {
+            $("#filtSquarePopular").css("background-color", "darkgrey");
+
             $("#filtSquarePopular").mousedown(function () {
                 $("#filtSquarePopular").css("background-color", "darkgrey");
+                $("#filtSquareNew").css("background-color", "white");
+                $("#filtSquareFive").css("background-color", "white");
+                $("#filtSquareTen").css("background-color", "white");
+            });
+            $("#filtSquareNew").mousedown(function () {
+                $("#filtSquarePopular").css("background-color", "white");
+                $("#filtSquareNew").css("background-color", "darkgrey");
+                $("#filtSquareFive").css("background-color", "white");
+                $("#filtSquareTen").css("background-color", "white");
+            });
+            $("#filtSquareFive").mousedown(function () {
+                $("#filtSquarePopular").css("background-color", "white");
+                $("#filtSquareNew").css("background-color", "white");
+                $("#filtSquareFive").css("background-color", "darkgrey");
+                $("#filtSquareTen").css("background-color", "white");
+            });
+            $("#filtSquareTen").mousedown(function () {
+                $("#filtSquarePopular").css("background-color", "white");
+                $("#filtSquareNew").css("background-color", "white");
+                $("#filtSquareFive").css("background-color", "white");
+                $("#filtSquareTen").css("background-color", "darkgrey");
             });
         }
 

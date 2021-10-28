@@ -7,9 +7,12 @@ import $ from 'jquery';
 
 
 let loginhidden = true;
+let reghidden = true;
 
 function logClick(){
-        $(".container > *:not(#login):not(header)").css("filter", 'blur(3px)')
+    loginhidden = true;
+    document.getElementById("registration").style = "visibility : hidden";
+    $(".container > *:not(#login):not(header)").css("filter", 'blur(15px)')
 
     let page = window.location.href.split('/')[window.location.href.split("/").length - 1];
 
@@ -24,9 +27,47 @@ function logClick(){
 
     }
 
+function regClick(){
+    reghidden = true;
+    document.getElementById("login").style = "visibility : hidden";
 
+    $(".container > *:not(#registration):not(header)").css("filter", 'blur(15px)')
 
+    let page = window.location.href.split('/')[window.location.href.split("/").length - 1];
 
+    if(reghidden === false){
+        document.getElementById("registration").style = "visibility : hidden";
+        reghidden = true;
+    }
+    else{
+        document.getElementById("registration").style = "visibility : visible";
+        reghidden = false;
+    }
+
+}
+
+function showPass() {
+    var x = document.getElementById("regpassinput");
+    if (x.type === "password") {
+        x.type = "text";
+    } else {
+        x.type = "password";
+    }
+}
+
+function logshowPass() {
+    var x = document.getElementById("passinput");
+    if (x.type === "password") {
+        x.type = "text";
+    } else {
+        x.type = "password";
+    }
+}
+function closewindow(){
+    $(".container > *:not(#login):not(header):not(#registration)").css("filter", 'none')
+    document.getElementById("registration").style = "visibility : hidden";
+    document.getElementById("login").style = "visibility : hidden";
+}
 const BasicExample = () => (
 
 
@@ -60,14 +101,18 @@ const BasicExample = () => (
               <div id = "logButtons">
                   <span id = "vhod">Вход</span>
                   <hr id = "upperline"/>
-                  <span  id = "mailtext">Электронная почта / номер телефона</span>
+                  <span  id = "mailtext">Электронная почта</span>
                   <input type={"text"} id = "mailinput"/>
                   <span  id = "passtext">Пароль</span>
-                  <input type={"text"} id = "passinput"/>
+                  <input type={"password"} id = "passinput"/>
+                  <input type = "checkbox" id = "logcheckbox" onClick={logshowPass} />
                   <input type={"checkbox"} id = "rememberme"/>
                   <label htmlFor="checkbox"></label>
                   <span id = "forgotpass">Забыли пароль?</span>
                   <button id = "logingIn">Войти</button>
+                  <span id = "registrText" onClick={regClick}>Зарегистрироваться</span>
+                  <button id="closebutton" onClick={closewindow}>×</button>
+
                   <hr id = "lineUp"/>
                   <hr id = "lineDown"/>
                   <span id = "textOr">или</span>
@@ -80,9 +125,58 @@ const BasicExample = () => (
                       <img src = "https://i.imgur.com/FUH2NZv.png" id = "faceImage"/>
                       <span id = "faceText">Facebook</span>
                   </div>
-
               </div>
+
+
+
           </div>
+
+
+          <div className="registration" id="registration">
+
+              <div className="wrapper wrapper_blur">
+                  <div className="content"></div>
+              </div>
+              <div className="modal"></div>
+
+
+              <div id="regButtons">
+                  <span id="reg">Регистрация</span>
+                  <hr id="upperline"/>
+
+
+                  <span id="nickname">Nickname</span>
+                  <input type={"text"} id="nicknameinput"/>
+                  <span id="regmailtext">Электронная почта</span>
+                  <input type={"text"} id="regmailinput"/>
+                  <span id="regpasstext">Придумайте пароль</span>
+                  <input type={"password"} id="regpassinput"/>
+                  <input type = "checkbox" id = "regcheckbox" onClick={showPass} />
+                  <span id="underpass">Пароль должен быть не менее 6 символов, содержать цифры и латинские буквы, в том числе заглавные, и не должен совпадать с именем и эл. почтой</span>
+                  <span id="polzsogl">Регистрируясь, вы соглашаетесь с <a href = "abobus">пользовательским соглашением</a> </span>
+                  <button id="signup">Зарегистрироваться</button>
+                  <hr id="regLineUp"/>
+
+                  <span id="regtextOr">или</span>
+                  <hr id="regLineDown"/>
+                  <span id="regAlready" onClick={logClick}>Я уже зарегистрирован</span>
+                  <button id="signup">Зарегистрироваться</button>
+                  <button id="closebutton" onClick={closewindow}>×</button>
+                  <div id="googleRect">
+                      <img src="https://i.imgur.com/Rvg4gaR.png" id="googleImage"/>
+                      <span id="googleText">Google</span>
+                  </div>
+                  <div id="faceRect">
+                      <img src="https://i.imgur.com/FUH2NZv.png" id="faceImage"/>
+                      <span id="faceText">Facebook</span>
+                  </div>
+              </div>
+
+
+          </div>
+
+
+
 
 
 
