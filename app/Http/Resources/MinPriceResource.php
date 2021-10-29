@@ -15,7 +15,8 @@ class MinPriceResource extends JsonResource
     public function toArray($request)
     {
         return [
-            'price' => $this->price
+            'price' => $this->price,
+            'currency' => 'UAH'
         ];
     }
 }
