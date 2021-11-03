@@ -48,7 +48,7 @@ class GameResource extends JsonResource
             'memory' => $this->memory . ' GB',
             'processors' => $this->processor,
             'graphics_cards' => $this->graphicsCard,
-            'main_image' => url('/') . '/img/' . str_replace(' ', '%20', $this->image),
+            'main_image' => url('/') . '/images/previews/' . str_replace(' ', '%20', $this->image),
             'images' => GalleryResource::collection($this->gallery),
             'genres' => GenreResource::collection($this->genres)
 //            'images' => $this->gallery
