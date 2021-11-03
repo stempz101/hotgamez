@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Resources\MainPageResource;
+
 use App\Http\Resources\MainResource;
 use App\Models\Game;
 use Illuminate\Http\Request;
@@ -25,7 +25,7 @@ class GameController extends Controller
         } else {
             return MainResource::collection(Game::with('prices')->get()->reverse());
         }
-//        Comment
+//        Commentasdfasdfasdf
     }
 
     /**
