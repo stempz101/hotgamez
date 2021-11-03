@@ -25,7 +25,7 @@ class GameController extends Controller
         } else {
             return MainResource::collection(Game::with('prices')->get()->reverse());
         }
-
+//        Comment
     }
 
     /**
