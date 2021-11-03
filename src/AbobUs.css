@@ -48,7 +48,6 @@
     position: relative;
     left: 145px;
     bottom: -100px;
-    margin-top: 1000px;
 }
 
 
@@ -140,13 +139,22 @@
     height: 100px;
 
 }
+
+#conf{
+    position: relative;
+    left : 700px;
+}
+
 .content {
     transition: max-height 0.2s;
     overflow: hidden;
+    height: 0px;
 }
 .content[aria-hidden="true"] {
     max-height: 0;
 }
     .content[aria-hidden="false"] {
-        max-height: var(--containerHeight, 1000px);
+        max-height: 1000px;
     }
+
+    /*todo containerHeight*/

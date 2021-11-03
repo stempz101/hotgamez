@@ -11,30 +11,19 @@ class AbobUs extends React.Component{
     }
 
     render(){
+        let hidden = true;
 
-// Получаем контейнер
-        const container = document.querySelector(".container");
-// Получаем контент:
-        const content = document.querySelector(".content");
-// 1. Получаем высоту контента, который мы хотим показать/скрыть
-        const heightOfContent = content.getBoundingClientRect().height;
-// Получаем кнопку
-        const btn = document.querySelector(".trigger");
-
-// 2. Задаем пользовательские свойства CSS с высотой контента
-        container.style.setProperty("--containerHeight", `${heightOfContent}px`);
-
-// Когда высота задана
-        setTimeout(e => {
-            document.documentElement.classList.add("height-is-set");
-            content.setAttribute("aria-hidden", "true");
-        }, 0);
-
-        btn.addEventListener("click", function(e) {
-            container.setAttribute("data-drawer-showing", container.getAttribute("data-drawer-showing") === "true" ? "false" : "true");
-            // 5. Переключаем значение aria-hidden
-            content.setAttribute("aria-hidden", content.getAttribute("aria-hidden") === "true" ? "false" : "true");
-        })
+        function click(){
+            let cont = document.getElementById("cont")
+            if(hidden){
+                cont.style.height = "1000px"
+                hidden = false;
+            }
+            else{
+                cont.style.height = "0px"
+                hidden = true;
+            }
+        }
 
         return <div id = "aboutus">
             <div id = "forcustH">
@@ -51,11 +40,11 @@ class AbobUs extends React.Component{
                 <span className = "subText">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ви звернулися за адресою, так як HotGamez - це інтернет-сервіс, що допомагає покупцеві знайти, порівняти і визначитись з вибором гри, магазину і зробити покупку. Ми не торгуємо, ми рекламуємо наявні у Вас товари. Таким чином, після розміщення товарів на HotGamez, наші відвідувачі стають Вашими покупцями.</span>
             </div>
             <div id = "conf">
-                <span className={"mainText"}>Конфіденційність</span>
+                <span className={"mainText"} id = "conf">Конфіденційність</span>
 
                 <div className="container">
-                    <button type="button" class="trigger">Show/Hide content</button>
-                    <div className="content">
+                    <button type="button" className="trigger" onClick={click}>Show/Hide content</button>
+                    <div className="content" id = "cont">
                             1. Збір інформації<br/>
                             Ми збираємо інформацію, коли ви реєструєтеся на сайті, заходьте на свій обліковий запис, виходите з облікового запису. Інформація включає ваш реєстраційний e-mail (логін).<br/>
                             Крім того, ми автоматично реєструємо ваш комп'ютер і браузер, включаючи IP, апаратні дані, а також адресу сторінки, що запитується на нашому сайті.<br/>
@@ -114,8 +103,6 @@ class AbobUs extends React.Component{
 
             </div>
         </div>
-
-
     }
 }
 
