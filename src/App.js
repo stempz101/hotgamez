@@ -1,7 +1,8 @@
-import React from "react";
+import React, {useState} from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Home from "./Home";
 import AbobUs from "./AbobUs";
+import Profile from "./Profile";
 import "./App.css";
 import $ from 'jquery';
 
@@ -68,6 +69,16 @@ function closewindow(){
     document.getElementById("registration").style = "visibility : hidden";
     document.getElementById("login").style = "visibility : hidden";
 }
+function loginButton(){
+    let inpM = document.getElementById("mailinput").value;
+    let inpP = document.getElementById("passinput").value;
+    //todo backend mail and password check
+    if(inpM === "craftaXLB" && inpP === "crafta12345"){
+        alert("goodLogin")
+
+    }
+}
+
 const BasicExample = () => (
 
 
@@ -109,7 +120,7 @@ const BasicExample = () => (
                   <input type={"checkbox"} id = "rememberme"/>
                   <label htmlFor="checkbox"></label>
                   <span id = "forgotpass">Забыли пароль?</span>
-                  <button id = "logingIn">Войти</button>
+                  <button id = "logingIn" onClick={loginButton}>Войти</button>
                   <span id = "registrText" onClick={regClick}>Зарегистрироваться</span>
                   <button id="closebutton" onClick={closewindow}>×</button>
 
@@ -182,6 +193,7 @@ const BasicExample = () => (
 
           <Route exact path="/" component={Home} />
         <Route path="/about" component={AbobUs} />
+        <Route path="/profile" component={Profile}/>
 
           <footer>
               <h3 id = "settingsButton">Настройки</h3>
