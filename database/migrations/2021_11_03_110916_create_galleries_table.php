@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateProcessorsTable extends Migration
+class CreateGalleriesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,10 @@ class CreateProcessorsTable extends Migration
      */
     public function up()
     {
-        Schema::create('processors', function (Blueprint $table) {
+        Schema::create('gallery', function (Blueprint $table) {
             $table->id();
-            $table->string('processor')->unique();
-            $table->integer('priority')->nullable();
-            $table->timestamps();
+            $table->string('nameImg');
+            $table->foreignId('idGame')->constrained('games');
         });
     }
 
@@ -28,6 +27,6 @@ class CreateProcessorsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('processors');
+        Schema::dropIfExists('galleries');
     }
 }

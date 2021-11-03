@@ -17,9 +17,8 @@ class CreatePricesTable extends Migration
             $table->id();
             $table->foreignId('idGame')->constrained('games');
             $table->foreignId('idShop')->constrained('shops');
-            $table->integer('price');
+            $table->double('price');
             $table->string('link');
-            $table->timestamps();
         });
     }
 

@@ -6,13 +6,14 @@ use App\Http\Resources\MainPageResource;
 use App\Http\Resources\MainResource;
 use App\Models\Game;
 use Illuminate\Http\Request;
+use Illuminate\Http\Resources\Json\AnonymousResourceCollection;
 
 class GameController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
-     * @return \Illuminate\Http\Response
+     * @return AnonymousResourceCollection
      */
     public function index(Request $request)
     {
@@ -42,9 +43,9 @@ class GameController extends Controller
      * Display the specified resource.
      *
      * @param  int  $id
-     * @return \Illuminate\Http\Response
+     * @return MainResource
      */
-    public function show($id)
+    public function show($id): MainResource
     {
         return new MainResource(Game::with('prices')->findOrFail($id));
     }

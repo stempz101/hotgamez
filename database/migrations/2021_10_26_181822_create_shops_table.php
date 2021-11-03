@@ -16,7 +16,7 @@ class CreateShopsTable extends Migration
         Schema::create('shops', function (Blueprint $table) {
             $table->id();
             $table->string('shop');
-            $table->timestamps();
+            $table->string('imgShop');
         });
     }
 

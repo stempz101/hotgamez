@@ -16,7 +16,7 @@ class CreateQuestionsTable extends Migration
         Schema::create('questions', function (Blueprint $table) {
             $table->id();
             $table->text('question')->nullable();
-            $table->tinyInteger('isAnswered')->default('0');
+            $table->boolean('isAnswered')->default(0);
             $table->foreignId('idUser')->constrained('users');
             $table->timestamps();
         });
