@@ -19,7 +19,7 @@ class MainResource extends JsonResource
             'id' => $this->id,
             'game' => $this->game,
             'image' => url('/') . '/img/' . str_replace(' ', '%20', $this->image),
-            'min_price' => new MinPriceResource($this->prices)
+            'min_price' => new MinPriceResource($this->minPrices)
         ];
     }
 }

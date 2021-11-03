@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 
+use App\Http\Resources\GameResource;
 use App\Http\Resources\MainResource;
 use App\Models\Game;
 use Illuminate\Http\Request;
@@ -18,12 +19,12 @@ class GameController extends Controller
     public function index(Request $request)
     {
         if ($request->has('count')) {
-            return MainResource::collection(Game::with('prices')
+            return MainResource::collection(Game::with('minPrices')
                 ->get()
                 ->reverse()
                 ->take($request->get('count')));
         } else {
-            return MainResource::collection(Game::with('prices')->get()->reverse());
+            return MainResource::collection(Game::with('minPrices')->get()->reverse());
         }
 //        Commentasdfasdfasdf
     }
@@ -45,9 +46,9 @@ class GameController extends Controller
      * @param  int  $id
      * @return MainResource
      */
-    public function show($id): MainResource
+    public function show($id)
     {
-        return new MainResource(Game::with('prices')->findOrFail($id));
+        return new GameResource(Game::with('prices', 'genres', 'gallery')->findOrFail($id));
     }
 
     /**
