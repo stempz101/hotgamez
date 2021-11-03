@@ -4,10 +4,10 @@ h1{
 
 #square {
      float : left;
-    border-radius: 5px;
-    margin: 7em 0.5em 5.6em 4em;
+     border-radius: 5px;
+     margin: 7em 0.5em 5.6em 4em;
      position : relative;
-     top : 20%;
+     top : -55px;
      left : 6em;
      height: 85px;
      width: 330px;
@@ -22,7 +22,7 @@ h1{
 
 #filters{
     position: relative;
-    width: 90%;
+    width: 50%;
     height: 100%;
     top : 135px;
     display: inline-block;
@@ -31,8 +31,9 @@ h1{
 #filterButtons{
     position : relative;
     left : 100px;
-    margin : 21px;
+    margin : 50px;
     float : left;
+    top: -55px;
 
 }
 
@@ -42,50 +43,44 @@ h1{
     font-size: 24px;
     line-height: 20px;
     text-align: center;
+
 }
 
 #filtSquarePopular{
+    position: relative;
     top: 5px;
-    border-radius: 25px;
+    border-radius: 5px;
     width: 200px;
-    height: 26px;
+    height: 30px;
     position : relative;
-
     background-color: white;
+
 }
 
 
 
 #filtSquareNew{
     top: 5px;
-    border-radius: 25px;
+    border-radius: 5px;
     width: 200px;
-    height: 26px;
+    height: 30px;
     position : relative;
-
+    right: 20px;
     background-color: white;
 }
 
 
-#filtSquareFive{
+#filtSquareFree{
     top: 5px;
-    border-radius: 25px;
+    border-radius: 5px;
     width: 200px;
-    height: 26px;
+    height: 30px;
     position : relative;
+    right: 20px;
 
     background-color: white;
 }
 
-#filtSquareTen{
-    top: 5px;
-    border-radius: 25px;
-    width: 200px;
-    height: 26px;
-    position : relative;
-
-    background-color: white;
-}
 
 #mainPage{
     position: static;
@@ -105,15 +100,16 @@ h1{
 
 #rearrTopLine{
     position: relative;
-    top: 45px;
+    top: -36px;
     opacity: 0.2;
     left : -26px;
     width : 1534px;
+
 }
 
 #rearrBotLine{
     opacity: 0.2;
-    top: -40px;
+    top: -130px;
     left : -26px;
     width : 1534px;
     position: relative;
@@ -124,10 +120,8 @@ h1{
     background: none;
     border : none;
     position: relative;
-    height: 50px;
-    margin: 20px 20px 20px -8px;
-    bottom : 65px;
-
+    top:-35px;
+    left: 950px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -202,7 +196,15 @@ h1{
 #genreRearr:hover{
     opacity:0.6;
 }
-
+#genreRearr{
+    left: 1000px;
+}
+#dateRearr{
+left:950px;
+}
+#priceRearr{
+    left: 1050px;
+}
 #dateRearr:active{
     color:darkgrey;
 }
@@ -210,35 +212,28 @@ h1{
     opacity:0.6;
 }
 
-#popularRearr:active{
-    color:darkgrey;
-}
-#popularRearr:hover{
-    opacity:0.6;
-}
+
 
 
 #filtSquarePopular:hover{
     opacity:0.6;
 }
 
-#filtSquareNew:active{
+#filtSquarePopular:active{
     background-color: darkgrey;
 }
 #filtSquareNew:hover{
     opacity:0.6;
 }
 
-#filtSquareFive:active{
+#filtSquareFree:active{
     background-color: darkgrey;
 }
-#filtSquareFive:hover{
+#filtSquareFree:hover{
     opacity:0.6;
 }
 
-#filtSquareTen:active{
-    background-color: darkgrey;
-}
+
 #filtSquareTen:hover{
     opacity:0.6;
 }

@@ -45,35 +45,30 @@ class Home extends React.Component{
                 $("#filtSquareFive").css("background-color", "white");
                 $("#filtSquareTen").css("background-color", "white");
             });
-            $("#filtSquareNew").mousedown(function () {
-                $("#filtSquarePopular").css("background-color", "white");
-                $("#filtSquareNew").css("background-color", "darkgrey");
-                $("#filtSquareFive").css("background-color", "white");
-                $("#filtSquareTen").css("background-color", "white");
+                  $("#filtSquareNew").mousedown(function () {
+                 $("#filtSquareNew").css("background-color", "darkgrey");
+                  $("#filtSquareFive").css("background-color", "white");
+                  $("#filtSquareTen").css("background-color", "white");
+                  $("#filtSquarePopular").css("background-color", "white");
             });
-            $("#filtSquareFive").mousedown(function () {
-                $("#filtSquarePopular").css("background-color", "white");
-                $("#filtSquareNew").css("background-color", "white");
-                $("#filtSquareFive").css("background-color", "darkgrey");
-                $("#filtSquareTen").css("background-color", "white");
-            });
-            $("#filtSquareTen").mousedown(function () {
-                $("#filtSquarePopular").css("background-color", "white");
-                $("#filtSquareNew").css("background-color", "white");
-                $("#filtSquareFive").css("background-color", "white");
-                $("#filtSquareTen").css("background-color", "darkgrey");
-            });
-        }
+                 $("#filtSquareFree").mousedown(function () {
+                 $("#filtSquareFive").css("background-color", "darkgrey");
+                 $("#filtSquarePopular").css("background-color", "white");
+                 $("#filtSquareNew").css("background-color", "white");
+                 $("#filtSquareTen").css("background-color", "white");
+             });
+
+          }
 
 
 
 
 
-render(){
+  render(){
 
-    const array = arr;
-        return <div id = "mainPage">
-            <ul style={{ listStyleType: "none" }} id = "filters"> {/*Простой фильтер*/}
+      const array = arr;
+          return <div id = "mainPage">
+              <ul style={{ listStyleType: "none" }} id = "filters"> {/*Простой фильтер*/}
                 <li id = "filterButtons">
                     <button id = "filtSquarePopular" className={"filterButton"}>Популярное</button>
                 </li>
@@ -81,10 +76,7 @@ render(){
                     <button id = "filtSquareNew" className={"filterButton"}>Новое</button>
                 </li>
                 <li id = "filterButtons">
-                    <button id = "filtSquareFive" className={"filterButton"}>До 5$</button>
-                </li>
-                <li id = "filterButtons">
-                    <button id = "filtSquareTen" className={"filterButton"}>До 10$</button>
+                    <button id = "filtSquareFree" className={"filterButton"}>Бесплатные</button>
                 </li>
             </ul>
             <div id = "rearrs">
@@ -101,9 +93,6 @@ render(){
                     </li>*/}
                     <li id = "filterButtons">
                         <button id = "dateRearr" className={"rearrButton"}>Дата выхода</button>
-                    </li>
-                    <li id = "filterButtons">
-                        <button id = "popularRearr" className={"rearrButton"}>Популярность</button>
                     </li>
 
                 </ul>

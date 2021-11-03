@@ -224,10 +224,10 @@ input{
 
 #logcheckbox{
     position: absolute;
-    width: 544px;
+    width: 25px;
     height: 25px;
-    left: 810px;
-    top: 567px;
+    left: 1070px;
+    top: 568px;
     border: 0px;
 }
 
