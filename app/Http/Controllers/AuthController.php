@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Exceptions\LoginException;
 use App\Exceptions\RegistrationException;
 use App\Models\User;
 use Carbon\Carbon;
@@ -44,5 +45,28 @@ class AuthController extends Controller
         /* @var User $user */
         return $this->successResponse($user);
     }
+
+    /**
+     * @throws ValidationException
+     * @throws LoginException
+     */
+    public function login(Request $request): JsonResponse
+    {
+        $this->validate($request, [
+            'password' => 'required',
+            'email' => 'required|email'
+        ]);
+
+        $login = User::where('email', $request->input('email'))->first();
+
+        if (!$login) {
+            throw new LoginException('Such user does not exist');
+        }
+        if (!Hash::check($request->input('password'), $login->password)) {
+            throw new LoginException('Incorrect password');
+        }
+        return $this->successResponse($login);
+    }
+
 
 }
