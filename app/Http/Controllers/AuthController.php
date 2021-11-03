@@ -52,10 +52,15 @@ class AuthController extends Controller
      */
     public function login(Request $request): JsonResponse
     {
-        $this->validate($request, [
-            'password' => 'required',
-            'email' => 'required|email'
-        ]);
+        try {
+            $this->validate($request, [
+                'password' => 'required',
+                'email' => 'required|email'
+            ]);
+        } catch (\Exception $e){
+            throw new LoginException('Login Fail!');
+        }
+
 
         $login = User::where('email', $request->input('email'))->first();
 
