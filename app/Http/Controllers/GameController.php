@@ -24,15 +24,31 @@ class GameController extends Controller
                 ->reverse()
                 ->take($request->get('count')));
         }
-//        } elseif ($request->has('nameaz')) {  //фильтр названия "А-Я"
-//                return MainResource::collection(Game::with('prices')->orderBy('game')->get());
-//        } elseif ($request->has('pricemin')) {
-//            return MainResource::collection(Game::with('prices')->orderBy('price')->get());
-//        } else {
-//            return MainResource::collection(Game::with('minPrices')->get()->reverse());
-//        }
-//        Commentasdfasdfasdf
+
+        //фильтры по названию
+        elseif ($request->has('nameaz')) {
+            return MainResource::collection(Game::with('minPrices')->orderBy('game')->get());
+        } elseif ($request->has('nameza')) {
+            return MainResource::collection(Game::with('minPrices')->orderBy('game')->get()->reverce());
+        }
+
+        //фильтры по цене
+        elseif ($request->has('pricemin')) {
+            return MainResource::collection(Game::select(['games.id', 'games.game', 'games.image', 'prices.price'])
+                ->join('prices', 'games.id', '=', 'prices.idGame')->orderBy('price')->get()->unique('id'));
+        } elseif ($request->has('pricemax')) {
+            return MainResource::collection(Game::select(['games.id', 'games.game', 'games.image', 'prices.price'])
+                ->join('prices', 'games.id', '=', 'prices.idGame')->orderBy('price')->get()->unique('id')->reverce());
+        }
+
+        //фильтры по добавлению
+        elseif ($request->has('idmax')) {
+            return MainResource::collection(Game::with('minPrices')->get()->reverse());
+        } else {
+            return MainResource::collection(Game::with('minPrices')->get());
+        }
     }
+//        Commentasdfasdfasdf
 
     /**
      * Store a newly created resource in storage.

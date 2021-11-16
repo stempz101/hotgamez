@@ -11,8 +11,7 @@ class Game extends Model
 
     // получение минимальной цены
     public function minPrices() {
-        return $this->hasOne(Price::class, 'idGame')
-            ->orderBy('price');
+        return $this->hasOne(Price::class, 'idGame')->orderBy('price');
     }
 
     // получение всех цен игры
