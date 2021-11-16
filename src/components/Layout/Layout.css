@@ -1,0 +1,5 @@
+main {
+    background: linear-gradient(to bottom right, #1F4068 , #2F64A4 80%);
+    padding: 0 calc(50% - 805px);
+    margin-top: 80px;
+}

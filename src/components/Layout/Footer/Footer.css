@@ -1,0 +1,28 @@
+footer {
+    padding: 0 calc(50% - 805px);
+    display: flex;
+    background: rgba(31, 65, 104, 0.9);
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+footer > a {
+    width: 300px;
+}
+
+footer h3 {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+footer div {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+
+#ctext{
+    width: 300px;
+    text-align: center;
+}

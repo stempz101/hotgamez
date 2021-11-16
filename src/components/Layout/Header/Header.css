@@ -1,0 +1,32 @@
+header {
+    background: #162447;
+    height: 80px;
+    padding: 0 calc(50% - 805px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+header > a > img {
+    height: 80px;
+}
+
+header > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+}
+
+header > div > a > img {
+    width: 32px
+}
+
+header img {
+    cursor: pointer;
+}

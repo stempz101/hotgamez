@@ -1,0 +1,77 @@
+.game-table-control-container {
+    position: relative;
+    height: 130px;
+}
+
+.games-table-control {
+    height: 50px;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    width: 100%;
+    top: 60px;
+    position: absolute;
+}
+
+.games-table-control__buttons{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.games-table-control__buttons > button {
+    width: 200px;
+    height: 26px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.games-table-control__buttons > button.active {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.games-table {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.games-table-item {
+    background: #1F4068;
+    border-radius: 5px;
+    width: 21%;
+    height: 220px;
+    margin: 2%;
+}
+
+.game-image {
+    width: 100%;
+    height: 140px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.game-info {
+    position: relative;
+    margin-top: 8px;
+    height: 67px;
+}
+
+.game-title {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.game-price-box {
+    position: absolute;
+    bottom: 6px;
+    right: 10px;
+    font-weight: 700;
+}
+
+.game-price {
+    color: #1BF128;
+}
