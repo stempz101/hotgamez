@@ -23,9 +23,14 @@ class GameController extends Controller
                 ->get()
                 ->reverse()
                 ->take($request->get('count')));
-        } else {
-            return MainResource::collection(Game::with('minPrices')->get()->reverse());
         }
+//        } elseif ($request->has('nameaz')) {  //фильтр названия "А-Я"
+//                return MainResource::collection(Game::with('prices')->orderBy('game')->get());
+//        } elseif ($request->has('pricemin')) {
+//            return MainResource::collection(Game::with('prices')->orderBy('price')->get());
+//        } else {
+//            return MainResource::collection(Game::with('minPrices')->get()->reverse());
+//        }
 //        Commentasdfasdfasdf
     }
 
