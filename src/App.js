@@ -3,6 +3,7 @@ import Modal from 'react-modal'
 
 import Home from './Pages/Home/Home';
 import AboutUs from "./Pages/About/AboutUs";
+import Profile from "./Pages/Profile/Profile";
 import React from 'react';
 
 import './App.css'
@@ -17,6 +18,7 @@ function App() {
             <Switch>
                 <Route exact path="/" component={Home}/>
                 <Route path="/about" component={AboutUs}/>
+                <Route path="/profile" component={Profile}></Route>
             </Switch>
         </Router>
     </div>
