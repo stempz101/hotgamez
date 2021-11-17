@@ -1,10 +1,11 @@
 footer {
     padding: 0 calc(50% - 805px);
+
     display: flex;
     background: rgba(31, 65, 104, 0.9);
     justify-content: space-between;
     align-items: center;
-    height: 70px;
+    height:70px
 }
 
 footer > a {

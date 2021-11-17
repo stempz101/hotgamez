@@ -7,12 +7,34 @@
     line-height: 22px;
     color: white;
 }
-
+.authbutton:hover {
+    background-color: orangered;
+}
+.authbutton:active {
+    background-color: indianred;
+}
+.authbutton, input {
+    color: black;
+}
 a {
     text-decoration: none;
     color: white;
 }
 
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 44px;
+
+}
+h3 {
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 44px;
+    margin-top: 10px;
+    margin-left: 5px;
+
+}
 input:focus {
     outline: none;
 }
@@ -20,4 +42,37 @@ input:focus {
 .ReactModal__Overlay--after-open {
     backdrop-filter: blur(40px);
     background-color: transparent !important;
+   
+}
+
+.authinput {
+    display: flex; 
+    height: 50px;
+    width: 565px;
+    border-radius: 35px;
+    padding: 20px;
+    margin: 60px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+    
+    border:none;
+}
+
+hr {
+    border-width: 1px;
+    border-color: rgba(33, 70, 114, 0.85);
+    border-radius: 10px;
+   margin-top: 20px;
+}
+
+.closeButton {
+    float: right;
+    height: 50px;
+    width: 50px;
+    color:white;
+    background-color: red;
+    border-radius: 100px;
+    font-size: 50px;
+    border: none;
 }
