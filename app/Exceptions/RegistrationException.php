@@ -14,4 +14,10 @@ class RegistrationException extends BaseAppException
      */
     protected $httpStatusCode = Response::HTTP_INTERNAL_SERVER_ERROR;
     protected $errorCode = ErrorCode::REGISTER_FAIL;
+
+    public function __construct(string $message, int $errorCode)
+    {
+        $this->message = $message;
+        $this->errorCode = $errorCode;
+    }
 }
