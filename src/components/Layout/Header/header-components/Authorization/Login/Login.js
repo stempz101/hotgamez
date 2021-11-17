@@ -11,7 +11,7 @@ function Login({ setIsOpen, setIsLoginForm }) {
             <h3>E-mail</h3>
             <input class="authinput" type="text" id = "logInput" placeholder="Enter an e-mail..." />
             <h3>Password</h3>
-            <input class = "authinput" type="text" id = "passInput" placeholder="Enter a password..." />
+            <input class = "authinput" type="password" id = "passInput" placeholder="Enter a password..." />
             <input className="checkbox" type="checkbox" value="Remember me"/>
             <label htmlFor="Remember me">Remember me</label>
             <div className="center">
