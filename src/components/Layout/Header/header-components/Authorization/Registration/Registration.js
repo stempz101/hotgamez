@@ -8,6 +8,8 @@ function Registration({setIsOpen, setIsLoginForm}) {
            <h2>Registration</h2>
             <button className="closeButton" onClick={() => setIsOpen(false)}>×</button>
             <hr></hr>
+            <h3>Username</h3>
+            <input className="authinput" type="text" id="logInput" placeholder="Enter an username..." />
             <h3>E-mail</h3>
            <input className="authinput" type="text" id="logInput" placeholder="Enter an e-mail..."/>
             <h3>Password</h3>

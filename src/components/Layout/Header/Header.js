@@ -21,7 +21,7 @@ const customStyles = {
         background: 'rgba(72, 126, 189, 1)',
         borderRadius: 50,
         width: 800,
-        height: 550,
+        height: 700,
         borderWidth: 0
     },
     overlay : {

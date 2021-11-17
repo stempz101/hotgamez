@@ -28,7 +28,13 @@
     cursor: pointer;
     border-radius: 5px;
 }
-
+.content {
+    width: 110%;
+    overflow: hidden;
+    height: 0px;
+    font-size: 24px;
+    line-height: 29px;
+}
 .games-table-control__buttons > button.active {
     background-color: rgba(255, 255, 255, 0.6);
 }

@@ -1,11 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\public",
     "\\src",
-    "\\src\\Pages",
-    "\\src\\Pages\\Home"
+    "\\src\\components",
+    "\\src\\components\\Layout",
+    "\\src\\components\\Layout\\Footer",
+    "\\src\\components\\Layout\\Header",
+    "\\src\\components\\Layout\\Header\\header-components",
+    "\\src\\components\\Layout\\Header\\header-components\\Authorization",
+    "\\src\\components\\Layout\\Header\\header-components\\Authorization\\Registration",
+    "\\src\\components\\Layout\\Header\\header-components\\HeaderInput"
   ],
-  "SelectedNode": "\\src\\setupTests.js",
+  "SelectedNode": "\\src\\components\\Layout\\Header\\header-components",
   "PreviewInSolutionExplorer": false
 }
