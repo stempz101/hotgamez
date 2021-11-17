@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AdminController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\GameController;
 use Illuminate\Http\Request;
@@ -15,6 +16,9 @@ use Illuminate\Support\Facades\Route;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
+
+Route::get('/genres', [GameController::class, 'getGenres']);
+Route::get('/admin/control-panel/games', [AdminController::class, 'getGames']);
 
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();

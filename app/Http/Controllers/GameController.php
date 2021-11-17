@@ -6,6 +6,7 @@ namespace App\Http\Controllers;
 use App\Http\Resources\GameResource;
 use App\Http\Resources\MainResource;
 use App\Models\Game;
+use App\Models\Genre;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\AnonymousResourceCollection;
 
@@ -23,32 +24,32 @@ class GameController extends Controller
                 ->get()
                 ->reverse()
                 ->take($request->get('count')));
-        }
-
-        //фильтры по названию
-        elseif ($request->has('nameaz')) {
+        } else if ($request->has('genres')) {  // фильтрация по жанрам
+            return MainResource::collection(Game::with(['minPrices', 'genres' => function ($q) {
+                $q->whereIn('genres.id', \request()->request->get('genres'));
+            }])->get()->filter(function ($games) {
+                return $games->genres->count() == count(\request()->request->get('genres'));
+            }));
+        } else if ($request->has('nameaz')) {      //фильтры по названию
             return MainResource::collection(Game::with('minPrices')->orderBy('game')->get());
-        } elseif ($request->has('nameza')) {
+        } else if ($request->has('nameza')) {
             return MainResource::collection(Game::with('minPrices')->orderBy('game')->get()->reverce());
-        }
-
-        //фильтры по цене
-        elseif ($request->has('pricemin')) {
+        } else if ($request->has('pricemin')) {        //фильтры по цене
             return MainResource::collection(Game::select(['games.id', 'games.game', 'games.image', 'prices.price'])
                 ->join('prices', 'games.id', '=', 'prices.idGame')->orderBy('price')->get()->unique('id'));
-        } elseif ($request->has('pricemax')) {
+        } else if ($request->has('pricemax')) {
             return MainResource::collection(Game::select(['games.id', 'games.game', 'games.image', 'prices.price'])
                 ->join('prices', 'games.id', '=', 'prices.idGame')->orderBy('price')->get()->unique('id')->reverce());
-        }
-
-        //фильтры по добавлению
-        elseif ($request->has('idmax')) {
+        } else if ($request->has('idmax')) {           //фильтры по добавлению
             return MainResource::collection(Game::with('minPrices')->get()->reverse());
         } else {
             return MainResource::collection(Game::with('minPrices')->get());
         }
     }
-//        Commentasdfasdfasdf
+
+    public function getGenres() {
+        return Genre::query()->orderBy('id')->get();
+    }
 
     /**
      * Store a newly created resource in storage.
