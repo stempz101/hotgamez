@@ -1,0 +1,97 @@
+
+.top{
+    padding-top: 51px;
+}
+.forCust{
+    display: inline-block;
+    width: 55%;
+    padding-right: 128px;
+}
+.forOwn{
+    display: inline-block;
+    width: 43%;
+    vertical-align: top;
+}
+.title{
+    font-size: 36px;
+    padding-bottom: 20px;
+}
+.subText{
+    font-size: 28px;
+    line-height: 34px;
+}
+.center{
+    display: flex;
+    padding-bottom: 15px;
+}
+.ques{
+    width: 55%;
+    padding-top: 28px;
+}
+
+#wishes{
+    margin-top: 20px;
+    width: 696px;
+    height: 251px;
+    border-radius:20px;
+    font-style: italic;
+    color: rgba(0,0,0,.5);
+    text-indent: 15px;
+    background-color: #ebebeb;
+    padding: 20px;
+    font-size: 24px;
+    line-height: 29px;
+    opacity: .8;
+}
+@media (max-width: 1440px){
+    #wishes{
+        width: 500px;
+        height: 180px;
+    }
+}
+.sendwish{
+    background-image: url("https://i.imgur.com/l96ZOpj.png");
+    width: 80px;
+    height: 80px;
+    background-size: contain;
+    border-radius: 50%;
+    box-shadow: 0 3px 20px rgba(0,0,0,.25);
+}
+.sendwish:hover {
+    box-shadow: inset 0 0 20px rgba(0,0,0,.2),
+    inset 0 2px 0 rgba(0,0,0,.1);
+}
+.conf{
+    display: block;
+    width: 43%;
+}
+.conf>span{
+float: left;
+}
+.trigger{
+    width: 40px;
+    height: 40px;
+}
+.content {
+    width: 110%;
+    overflow: hidden;
+    height: 0px;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.zero{
+    display: inline-block;
+    width: 75%;
+}
+.links{
+    padding-top: 30px;
+    display: inline-block;
+    width: 25%;
+}
+.links>img{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+}

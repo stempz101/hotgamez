@@ -2,6 +2,7 @@ import {BrowserRouter as Router, Route, Switch, Redirect} from 'react-router-dom
 import Modal from 'react-modal'
 
 import Home from './Pages/Home/Home';
+import AboutUs from "./Pages/About/AboutUs";
 import React from 'react';
 
 import './App.css'
@@ -14,7 +15,8 @@ function App() {
     <div className="App">
         <Router>
             <Switch>
-              <Route path="/" component={Home}/>
+                <Route exact path="/" component={Home}/>
+                <Route path="/about" component={AboutUs}/>
             </Switch>
         </Router>
     </div>
