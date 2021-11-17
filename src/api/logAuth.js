@@ -3,16 +3,11 @@ import {Link} from "react-router-dom";
 
 export default function logAuth(login, password){
 
-    /*
-        axios.get(url)
+    axios.get("http://127.0.0.1:8000/api/games")
         .then(res => {
-            setFetchState(p => ({...p, loading: false}))
-            setGames(p => [...p, ...dboutput])
+            alert(JSON.stringify(res.data.data[0]));
         })
-    */
-    if(login === "1" && password === "1") alert("a")
 
-    else alert("f")
     return true
 
 }

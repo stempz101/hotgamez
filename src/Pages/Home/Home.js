@@ -19,9 +19,9 @@ function Home() {
         fetchGames(startPos, tableControls, setFetchState, setGames);
     }, [tableControls])
 
-    React.useEffect(() => {
+    /*React.useEffect(() => {
         fetchGames(startPos, tableControls, setFetchState, setGames)
-    }, [startPos])
+    }, [startPos])*/
 
 
     const observer = React.useRef();

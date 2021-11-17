@@ -9,7 +9,7 @@ function GameTableItem(props) {
                 <span className='game-title'>{props.item.game}</span>
                 <div className='game-price-box'>
                     <span className='game-price-from'>От </span>
-                    <span className='game-price'>{props.item.price}$</span>
+                    <span className='game-price'>{props.item["min_price"].price}$</span>
                 </div>
             </div>
         </>

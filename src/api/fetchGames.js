@@ -1,8 +1,7 @@
 import axios from 'axios'
 
 export default function fetchGames(startPos, tableControls, setFetchState, setGames) {
-        let dboutput = Array(25).fill({image : "https://steamcdn-a.akamaihd.net/steam/apps/866800/capsule_616x353.jpg?t=1579804618", game : "The walking dead", price : "69"})
-    
+
         setFetchState(p => ({...p, loading: true}))
 
 
@@ -30,16 +29,10 @@ export default function fetchGames(startPos, tableControls, setFetchState, setGa
         }
 
 
-        setTimeout(() => {
-            setFetchState(p => ({...p, loading: false}))
-            startPos === 0 ? setGames(dboutput) : setGames(p => [...p, ...dboutput])
-        }, 1000);
 
-        /*
-        axios.get(url)
+        axios.get("http://127.0.0.1:8000/api/games")
         .then(res => {
             setFetchState(p => ({...p, loading: false}))
-            setGames(p => [...p, ...dboutput])
+            setGames(p => [...p, ...res.data.data])
         })
-        */
 }
