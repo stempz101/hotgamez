@@ -18,10 +18,10 @@ const customStyles = {
         bottom: 'auto',
         marginRight: '-50%',
         transform: 'translate(-50%, -50%)',
-        background: 'rgba(72, 126, 189, 0.7)',
+        background: 'rgba(72, 126, 189, 1)',
         borderRadius: 50,
-        width: 928,
-        height: 701,
+        width: 800,
+        height: 550,
         borderWidth: 0
     },
     overlay : {
