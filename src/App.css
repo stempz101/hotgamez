@@ -45,8 +45,9 @@ input:focus {
 .ReactModal__Overlay--after-open {
     backdrop-filter: blur(40px);
     background-color: transparent !important;
-   
 }
+
+
 
 .checkbox{
     height: 15px;

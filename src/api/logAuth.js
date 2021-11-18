@@ -1,13 +1,24 @@
-import axios from 'axios'
-import {Link} from "react-router-dom";
+import axios, {Axios} from 'axios'
+import {Link, Redirect, useHistory} from "react-router-dom";
 
-export default function logAuth(login, password){
+export default function logAuth(email, password){
 
-    axios.get("http://127.0.0.1:8000/api/games")
+
+    axios.post("http://127.0.0.1:8000/api/login", {email : email, password : password}, {withCredentials : true, headers: {'Access-Control-Allow-Origin': '*', 'Content-Type': 'application/json'}
+        })
         .then(res => {
-            alert(JSON.stringify(res.data.data[0]));
+            alert("Successfully logined as " + res.data.data.username)
+            axios.get("http://127.0.0.1:8000/api/user", {withCredentials : true, headers: {'Access-Control-Allow-Origin': '*', 'Content-Type': 'application/json'}})
+                .then(res => {
+                    alert("Good login")
+                    /*let history = useHistory();
+                    history.push("/")*/
+                })
+        })
+        .catch(err =>{
+            alert("Wrong login or password")
         })
 
-    return true
+    return
 
 }
