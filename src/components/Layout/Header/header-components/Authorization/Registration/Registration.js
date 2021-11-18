@@ -11,11 +11,11 @@ function Registration({setIsOpen, setIsLoginForm}) {
             <h3>Username</h3>
             <input className="authinput" type="text" id="logInput" placeholder="Enter an username..." />
             <h3>E-mail</h3>
-           <input className="authinput" type="text" id="logInput" placeholder="Enter an e-mail..."/>
+           <input className="authinput" type="text" id="emaInput" placeholder="Enter an e-mail..."/>
             <h3>Password</h3>
            <input className="authinput" type="password" id="passInput" placeholder="Enter a password..."/>
             <div className="center">
-                <button className="authbutton" onClick={() => regAuth(document.getElementById("logInput").value, document.getElementById("passInput").value)}>Registration</button>
+                <button className="authbutton" onClick={() => regAuth(document.getElementById("logInput").value, document.getElementById("emaInput").value, document.getElementById("passInput").value)}>Registration</button>
             </div>
 
             <div className="center2">

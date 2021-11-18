@@ -9,11 +9,11 @@ let hidden = true;
 function click() {
     let cont = document.getElementById("cont")
     if (hidden) {
-        cont.style.height = "50px"
+        cont.style.display = "visible"
         hidden = false;
     }
     else {
-        cont.style.height = "0px"
+        cont.style.display = "none"
         hidden = true;
     }
 }
@@ -35,6 +35,7 @@ function Home() {
     /*React.useEffect(() => {
         fetchGames(startPos, tableControls, setFetchState, setGames)
     }, [startPos])*/
+
 
 
     const observer = React.useRef();
@@ -63,7 +64,11 @@ function Home() {
                         <button onClick={() => setTableControls(p => ({...p, newGames: !p.newGames}))}>Новое</button>
                         <button onClick={() => setTableControls(p => ({ ...p, free: !p.free }))}>Бесплатные</button>
                         <button onClick={click}>Цена </button>
-                    
+                        <div className="hcontent" id="cont">
+
+                            <button style={{ zIndex: "1000", color: "black", backgroundColor: "white", borderRadius: "5px", padding: "2px" }}>По убыванию</button>
+                            <button style={{ zIndex: "1000", color: "black", backgroundColor: "white", borderRadius: "5px", padding: "2px" }}>По возрастанию</button>
+                        </div>
                     </div>
                     <div className='games-table-control__list'>
 
@@ -71,11 +76,7 @@ function Home() {
                 </div>
             </div>
             <div className='games-table'>
-                <div className="content" id="cont">
-                    
-                    <button style={{ zIndex: "1000", color: "black", backgroundColor: "white", borderRadius: "5px", padding: "2px" }}>По убыванию</button>
-                    <button style={{ zIndex: "1000", color: "black", backgroundColor: "white", borderRadius: "5px", padding: "2px" }}>По возрастанию</button>
-                </div>
+
                 {games.map((item, index) => (
                     <>
                         {index === games.length - 15 ? 
