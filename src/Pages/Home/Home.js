@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Layout from '../../components/Layout/Layout'
-
+import styled from "styled-components";
 import './Home.css'
 import GameTableItem from '../../components/GameTableItem/GameTableItem';
 import fetchGames from '../../api/fetchGames';
@@ -19,7 +19,7 @@ function click() {
 }
 
 function Home() {
-
+ 
     const [startPos, setStartPos] = React.useState(0)
     const [games, setGames] = React.useState([])
     const [fetchState, setFetchState] = React.useState({loading : false, hasMore : true})
@@ -50,7 +50,7 @@ function Home() {
     }, [fetchState.loading, fetchState.hasMore])
 
 
-
+   
     return (
         <Layout>
           
@@ -62,19 +62,15 @@ function Home() {
                         <button onClick={() => setTableControls(p => ({...p, popular: !p.popular}))}>Популярное</button>
                         <button onClick={() => setTableControls(p => ({...p, newGames: !p.newGames}))}>Новое</button>
                         <button onClick={() => setTableControls(p => ({ ...p, free: !p.free }))}>Бесплатные</button>
-                        <button onClick={click}>Цена </button>
-                    
+ 
+
                     </div>
                     <div className='games-table-control__list'>
 
-                    </div>
                 </div>
             </div>
             <div className='games-table'>
-                <div className="content" id="cont">
-                    
-                    <button style={{ zIndex: "1000", color: "black", backgroundColor: "white", borderRadius: "5px", padding: "2px" }}>По убыванию</button>
-                    <button style={{ zIndex: "1000", color: "black", backgroundColor: "white", borderRadius: "5px", padding: "2px" }}>По возрастанию</button>
+   
                 </div>
                 {games.map((item, index) => (
                     <>
@@ -90,7 +86,7 @@ function Home() {
                     </>
                 ))}
                 {fetchState.loading ? <h3>Loadings...</h3> : <></>}
-            </div>
+            </div>            
         </Layout>
     )
 }

@@ -43,7 +43,9 @@
     display: flex;
     flex-wrap: wrap;
 }
-
+.pricelist {
+    height: 300px !important;
+}
 .games-table-item {
     background: #1F4068;
     border-radius: 5px;
