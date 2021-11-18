@@ -3,6 +3,7 @@
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\GameController;
+use App\Http\Controllers\MessageController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -24,6 +25,9 @@ Route::get('/genres', [GameController::class, 'getGenres']);
 Route::middleware('auth:sanctum')->group(function (){
     Route::get('/user', [AuthController::class, 'user']);
     Route::get('/admin/control-panel/games', [AdminController::class, 'getGames']);
+
+    Route::post('/about/message', [MessageController::class, 'mailMessage']);
+
 });
 
 Route::apiResources([

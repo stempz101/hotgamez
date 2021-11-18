@@ -82,8 +82,6 @@ class AuthController extends Controller
         return $this->successResponse($user)->withCookie($cookie);
     }
 
-
-
     public function user()
     {
         return Auth::user();
