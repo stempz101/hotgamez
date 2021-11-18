@@ -9,7 +9,7 @@ let hidden = true;
 function click() {
     let cont = document.getElementById("cont")
     if (hidden) {
-        cont.style.display = "visible"
+        cont.style.display = "block"
         hidden = false;
     }
     else {
@@ -64,10 +64,10 @@ function Home() {
                         <button onClick={() => setTableControls(p => ({...p, newGames: !p.newGames}))}>Новое</button>
                         <button onClick={() => setTableControls(p => ({ ...p, free: !p.free }))}>Бесплатные</button>
                         <button onClick={click}>Цена </button>
-                        <div className="hcontent" id="cont">
+                        <div className="hcontent" id="cont" style={{display : "none"}}>
 
-                            <button style={{ zIndex: "1000", color: "black", backgroundColor: "white", borderRadius: "5px", padding: "2px" }}>По убыванию</button>
-                            <button style={{ zIndex: "1000", color: "black", backgroundColor: "white", borderRadius: "5px", padding: "2px" }}>По возрастанию</button>
+                            <button style={{ zIndex: "1000", color: "black", backgroundColor: "white", borderRadius: "5px", padding: "2px"}} onClick={() => setTableControls(p => ({ ...p, free: p.price = "max" }))}>По убыванию</button>
+                            <button style={{ zIndex: "1000", color: "black", backgroundColor: "white", borderRadius: "5px", padding: "2px"}} onClick={() => setTableControls(p => ({ ...p, free: p.price = "min" }))}>По возрастанию</button>
                         </div>
                     </div>
                     <div className='games-table-control__list'>

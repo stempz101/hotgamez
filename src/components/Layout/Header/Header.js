@@ -9,6 +9,7 @@ import Modal from 'react-modal'
 
 import './Header.css'
 import Authorization from './header-components/Authorization/Authorization'
+import axios from "axios";
 
 const customStyles = {
     content : {
@@ -38,7 +39,18 @@ function Header() {
             <div>
                 <HeaderInput />
                 <Link to='/'><img src={FavoriteIcon} alt=''/></Link>
-                {true ? <a href='#' onClick={() => setIsOpen(true)}><img src={ProfileIcon} alt=''/></a> : <Link to='/'><img src={ProfileIcon} alt=''/></Link>}
+                {true ? <a href='#' onClick={() => {
+                    axios.get("http://127.0.0.1:8000/api/user", {withCredentials : true, headers: {'Access-Control-Allow-Origin': '*', 'Content-Type': 'application/json'}})
+                        .then(res => {
+                            alert("Already logines as " + res.data.username)
+                            return;
+                            /*let history = useHistory();
+                            history.push("/")*/
+                        })
+                        .catch(err =>{
+                            setIsOpen(true)
+                        })
+                }}><img src={ProfileIcon} alt=''/></a> : <Link to='/'><img src={ProfileIcon} alt=''/></Link>}
             </div>
 
 

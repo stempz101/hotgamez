@@ -5,7 +5,7 @@ export default function regAuth(login, email, password){
 
     axios.post(`http://127.0.0.1:8000/api/register/?username=${login}&email=${email}&password=${password}`)
         .then(res => {
-            alert(JSON.stringify(res));
+            alert("Successfully registered as " + login);
         })
         .catch(err =>{
             alert(JSON.stringify(err.response.data))
