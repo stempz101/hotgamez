@@ -1,6 +1,6 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Layout from '../../components/Layout/Layout'
-import styled from "styled-components";
+
 import './Home.css'
 import GameTableItem from '../../components/GameTableItem/GameTableItem';
 import fetchGames from '../../api/fetchGames';
@@ -9,7 +9,7 @@ let hidden = true;
 function click() {
     let cont = document.getElementById("cont")
     if (hidden) {
-        cont.style.display = "block"
+        cont.style.display = "visible"
         hidden = false;
     }
     else {
@@ -19,12 +19,12 @@ function click() {
 }
 
 function Home() {
- 
+
     const [startPos, setStartPos] = React.useState(0)
     const [games, setGames] = React.useState([])
-    const [fetchState, setFetchState] = React.useState({loading : false, hasMore : true})
+    const [fetchState, setFetchState] = React.useState({ loading: false, hasMore: true })
 
-    const [tableControls, setTableControls] = React.useState({popular: false, newGames: false, free: false, price: null, genre: [], releaseDate: null});
+    const [tableControls, setTableControls] = React.useState({ popular: false, newGames: false, free: false, price: null, genre: [], releaseDate: null });
 
     React.useEffect(() => {
         setStartPos(0);
@@ -40,57 +40,58 @@ function Home() {
 
     const observer = React.useRef();
     const trigger = React.useCallback(node => {
-        if(fetchState.loading) return;
-        if(observer.current) observer.current.disconnect()
+        if (fetchState.loading) return;
+        if (observer.current) observer.current.disconnect()
         observer.current = new IntersectionObserver(entries => {
-            if(entries[0].isIntersecting && fetchState.hasMore){
+            if (entries[0].isIntersecting && fetchState.hasMore) {
                 setStartPos(p => p + 25)
             }
         })
-        if(node) observer.current.observe(node)
+        if (node) observer.current.observe(node)
     }, [fetchState.loading, fetchState.hasMore])
 
 
-   
+
     return (
         <Layout>
-          
+
             <div className='game-table-control-container'>
-               
+
                 <div className='games-table-control'>
-                   
+
                     <div className='games-table-control__buttons'>
-                        <button onClick={() => setTableControls(p => ({...p, popular: !p.popular}))}>Популярное</button>
-                        <button onClick={() => setTableControls(p => ({...p, newGames: !p.newGames}))}>Новое</button>
+                        <button onClick={() => setTableControls(p => ({ ...p, popular: !p.popular }))}>Популярное</button>
+                        <button onClick={() => setTableControls(p => ({ ...p, newGames: !p.newGames }))}>Новое</button>
                         <button onClick={() => setTableControls(p => ({ ...p, free: !p.free }))}>Бесплатные</button>
                         <button onClick={click}>Цена </button>
-                    
+                        <div className="hcontent" id="cont">
+
+                            <button style={{ zIndex: "1000", color: "black", backgroundColor: "white", borderRadius: "5px", padding: "2px" }}>По убыванию</button>
+                            <button style={{ zIndex: "1000", color: "black", backgroundColor: "white", borderRadius: "5px", padding: "2px" }}>По возрастанию</button>
+                        </div>
                     </div>
                     <div className='games-table-control__list'>
 
+                    </div>
                 </div>
             </div>
             <div className='games-table'>
-                <div className="content" id="cont">
-                    
-                    <button style={{ zIndex: "1000", color: "black", backgroundColor: "white", borderRadius: "5px", padding: "2px" }}>По убыванию</button>
-                    <button style={{ zIndex: "1000", color: "black", backgroundColor: "white", borderRadius: "5px", padding: "2px" }}>По возрастанию</button>
-                </div>
+
                 {games.map((item, index) => (
                     <>
-                        {index === games.length - 15 ? 
+                        {index === games.length - 15 ?
                             <div className='games-table-item' key={'game-' + index} ref={trigger}>
-                                <GameTableItem item={item}/> 
+                                <GameTableItem item={item} />
                             </div>
                             :
                             <div className='games-table-item' key={'game-' + index}>
-                                <GameTableItem item={item}/> 
+                                <GameTableItem item={item} />
                             </div>
                         }
                     </>
                 ))}
                 {fetchState.loading ? <h3>Loadings...</h3> : <></>}
-            </div>            
+            </div>
         </Layout>
     )
 }
