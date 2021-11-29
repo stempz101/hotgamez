@@ -15,7 +15,11 @@ function Login({ setIsOpen, setIsLoginForm }) {
             <input className="checkbox" type="checkbox" value="Remember me"/>
             <label htmlFor="Remember me">Remember me</label>
             <div className="center">
-                <button className="authbutton" onClick={() => logAuth(document.getElementById("logInput").value, document.getElementById("passInput").value)}>Log in</button>
+                <button className="authbutton" onClick={() => {
+                    if(logAuth(document.getElementById("logInput").value, document.getElementById("passInput").value)){
+                        setIsOpen(false);
+                    }
+                }}>Log in</button>
             </div>
 
             <div className="center2">

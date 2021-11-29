@@ -1,0 +1,23 @@
+.profile_data_box{
+    background: rgba(72, 126, 189, 0.7);
+    border-radius: 5px;
+    width: 21%;
+    height: 220px;
+}
+
+@media (max-width: 300px) {
+    .name{
+        resize: none;
+        width : 100px;
+        height : 100px;
+    }
+}
+
+.mail{
+    display: block;
+}
+
+.password{
+    display: block;
+}
+

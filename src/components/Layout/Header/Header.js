@@ -1,5 +1,5 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React, {useCallback} from 'react'
+import {Link, Redirect, withRouter, useHistory} from 'react-router-dom'
 import HeaderInput from './header-components/HeaderInput/HeaderInput'
 import FavoriteIcon from '../../../assets/headerFavoriteIcon.svg'
 import ProfileIcon from '../../../assets/headerProfileIcon.svg'
@@ -33,24 +33,27 @@ const customStyles = {
 
 function Header() {
     const [isOpen, setIsOpen] = React.useState(false)
+    const history = useHistory();
     return (
         <header>
             <Link to='/'><img src={Logo} alt=''/></Link>
             <div>
                 <HeaderInput />
                 <Link to='/'><img src={FavoriteIcon} alt=''/></Link>
-                {true ? <a href='#' onClick={() => {
-                    axios.get("http://127.0.0.1:8000/api/user", {withCredentials : true, headers: {'Access-Control-Allow-Origin': '*', 'Content-Type': 'application/json'}})
+                {<a href='#' onClick={useCallback( () => {
+                    axios.get("http://127.0.0.1:8000/api/user", {
+                        withCredentials: true,
+                        headers: {'Access-Control-Allow-Origin': '*', 'Content-Type': 'application/json'}
+                    })
                         .then(res => {
-                            alert("Already logines as " + res.data.username)
-                            return;
-                            /*let history = useHistory();
-                            history.push("/")*/
+                            alert(JSON.stringify(res))
+                            history.push("/profile");
+
                         })
-                        .catch(err =>{
+                        .catch(err => {
                             setIsOpen(true)
                         })
-                }}><img src={ProfileIcon} alt=''/></a> : <Link to='/'><img src={ProfileIcon} alt=''/></Link>}
+                }, [history])}><img src={ProfileIcon} alt=''/></a>}
             </div>
 
 
