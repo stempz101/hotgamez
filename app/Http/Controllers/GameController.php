@@ -29,7 +29,7 @@ class GameController extends Controller
         elseif ($request->has('nameaz')) {
             return MainResource::collection(Game::with('minPrices')->orderBy('game')->get());
         } elseif ($request->has('nameza')) {
-            return MainResource::collection(Game::with('minPrices')->orderBy('game')->get()->reverce());
+            return MainResource::collection(Game::with('minPrices')->orderBy('game')->get()->reverse());
         }
 
         //фильтры по цене
@@ -38,13 +38,19 @@ class GameController extends Controller
                 ->join('prices', 'games.id', '=', 'prices.idGame')->orderBy('price')->get()->unique('id'));
         } elseif ($request->has('pricemax')) {
             return MainResource::collection(Game::select(['games.id', 'games.game', 'games.image', 'prices.price'])
-                ->join('prices', 'games.id', '=', 'prices.idGame')->orderBy('price')->get()->unique('id')->reverce());
+                ->join('prices', 'games.id', '=', 'prices.idGame')->orderBy('price')->get()->unique('id')->reverse());
         }
 
         //фильтры по добавлению
-        elseif ($request->has('idmax')) {
-            return MainResource::collection(Game::with('minPrices')->get()->reverse());
-        } else {
+        elseif ($request->has('new')) {
+            return MainResource::collection(Game::select(['games.id', 'games.game', 'games.image', 'prices.price', 'games.releaseDate'])
+                ->join('prices', 'games.id', '=', 'prices.idGame')->orderBy('releaseDate')->get()->unique('id'))->reverse();
+        } elseif ($request->has('old')) {
+            return MainResource::collection(Game::select(['games.id', 'games.game', 'games.image', 'prices.price', 'games.releaseDate'])
+                ->join('prices', 'games.id', '=', 'prices.idGame')->orderBy('releaseDate')->get()->unique('id'));
+        }
+
+        else {
             return MainResource::collection(Game::with('minPrices')->get());
         }
     }
