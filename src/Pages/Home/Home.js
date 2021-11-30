@@ -1,5 +1,8 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Layout from '../../components/Layout/Layout'
+import { DropDownList } from "@progress/kendo-react-dropdowns";
+import * as ReactDOM from "react-dom";
+import { useHistory } from "react-router-dom";
 
 import './Home.css'
 import GameTableItem from '../../components/GameTableItem/GameTableItem';
@@ -18,8 +21,13 @@ function click() {
     }
 }
 
-function Home() {
 
+function Home() {
+    const history = useHistory();
+    const navigateTo = () => history.push('/about');//eg.history.push('/login');
+
+
+    const [search, setSearch] = useState(''); //add this line
     const [startPos, setStartPos] = React.useState(0)
     const [games, setGames] = React.useState([])
     const [fetchState, setFetchState] = React.useState({ loading: false, hasMore: true })
@@ -52,9 +60,13 @@ function Home() {
 
 
 
-    return (
-        <Layout>
 
+
+
+    return (
+
+        <Layout>
+            <button onClick={navigateTo}> click me</button>
             <div className='game-table-control-container'>
 
                 <div className='games-table-control'>
@@ -63,19 +75,21 @@ function Home() {
                         <button onClick={() => setTableControls(p => ({ ...p, popular: !p.popular }))}>Популярное</button>
                         <button onClick={() => setTableControls(p => ({ ...p, newGames: !p.newGames }))}>Новое</button>
                         <button onClick={() => setTableControls(p => ({ ...p, free: !p.free }))}>Бесплатные</button>
-                        <button onClick={click}>Цена </button>
-                        <div className="hcontent" id="cont">
+                        <li className="dropdown">
+                            <a href="javascript:void(0)" className="dropbtn" >Цена</a>
+                            <div className="dropdown-content">
+                                <button className='pricebtn'>По возрастанию</button>
+                                <button className='pricebtn'>По убыванию</button>
+                            </div>
+                        </li>
 
-                            <button style={{ zIndex: "1000", color: "black", backgroundColor: "white", borderRadius: "5px", padding: "2px" }} onClick={() => setTableControls(p => ({ ...p, price: "min" }))}>По убыванию</button>
-                            <button style={{ zIndex: "1000", color: "black", backgroundColor: "white", borderRadius: "5px", padding: "2px" }} onClick={() => setTableControls(p => ({ ...p, price: "max" }))}>По возрастанию</button>
-                        </div>
                     </div>
                     <div className='games-table-control__list'>
 
                     </div>
                 </div>
             </div>
-            <div className='games-table'>
+            <div  className='games-table'>
 
                 {games.map((item, index) => (
                     <>
@@ -84,7 +98,7 @@ function Home() {
                                 <GameTableItem item={item} />
                             </div>
                             :
-                            <div className='games-table-item' key={'game-' + index}>
+                            <div onClick={navigateTo} className='games-table-item' key={'game-' + index}>
                                 <GameTableItem item={item} />
                             </div>
                         }
@@ -94,6 +108,7 @@ function Home() {
             </div>
         </Layout>
     )
+
 }
 
 
