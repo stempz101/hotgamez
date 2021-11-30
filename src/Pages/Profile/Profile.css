@@ -1,8 +1,21 @@
-.profile_data_box{
+.profile_data_box_up{
+    position: relative;
     background: rgba(72, 126, 189, 0.7);
     border-radius: 5px;
     width: 21%;
-    height: 220px;
+    height: 390px;
+    margin-top: 0%;
+    top : 5px;
+}
+
+.profile_data_box_down{
+    position: relative;
+    background: rgba(72, 126, 189, 0.7);
+    border-radius: 5px;
+    width: 21%;
+    height: 390px;
+    margin-top: 4%;
+    bottom : 5px;
 }
 
 @media (max-width: 300px) {
@@ -13,11 +26,29 @@
     }
 }
 
-.mail{
-    display: block;
+@media (max-width: 300px) {
+    .mail{
+        resize: none;
+        width : 100px;
+        height : 100px;
+    }
 }
 
-.password{
+@media (max-width: 300px) {
+    .password{
+        resize: none;
+        width : 100px;
+        height : 100px;
+    }
+}
+
+
+
+.changeButt{
+    text-align: center;
+}
+
+.row{
     display: block;
 }
 
