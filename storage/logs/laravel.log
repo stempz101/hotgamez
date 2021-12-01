@@ -8383,7 +8383,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-17 22:29:38] local.ERROR: Validation Fail! {"exception":"[object] (App\\Exceptions\\RegistrationException(code: 0): Validation Fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:30)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->register()
@@ -8425,7 +8425,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-17 22:29:45] local.ERROR: Validation Fail! {"exception":"[object] (App\\Exceptions\\RegistrationException(code: 0): Validation Fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:30)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->register()
@@ -8467,7 +8467,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-17 22:30:09] local.ERROR: This email is already taken {"exception":"[object] (App\\Exceptions\\RegistrationException(code: 0): This email is already taken at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:44)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->register()
@@ -8509,7 +8509,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-17 22:31:02] local.ERROR: Validation Fail! {"exception":"[object] (App\\Exceptions\\RegistrationException(code: 0): Validation Fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:30)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->register()
@@ -8551,7 +8551,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-17 22:31:44] local.ERROR: Validation Fail! {"exception":"[object] (App\\Exceptions\\RegistrationException(code: 0): Validation Fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:30)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->register()
@@ -8593,7 +8593,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-17 23:06:57] local.ERROR: Validation Fail! {"exception":"[object] (App\\Exceptions\\RegistrationException(code: 0): Validation Fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:30)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->register()
@@ -8635,7 +8635,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-17 23:07:08] local.ERROR: This email is already taken {"exception":"[object] (App\\Exceptions\\RegistrationException(code: 0): This email is already taken at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:44)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->register()
@@ -8677,7 +8677,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-17 23:08:04] local.ERROR: Validation Fail! {"exception":"[object] (App\\Exceptions\\RegistrationException(code: 0): Validation Fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:30)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->register()
@@ -8719,7 +8719,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-17 23:08:08] local.ERROR: This email is already taken {"exception":"[object] (App\\Exceptions\\RegistrationException(code: 0): This email is already taken at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:44)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->register()
@@ -8761,7 +8761,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-17 23:08:22] local.ERROR: This email is already taken {"exception":"[object] (App\\Exceptions\\RegistrationException(code: 0): This email is already taken at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:44)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->register()
@@ -8803,7 +8803,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-17 23:08:26] local.ERROR: Validation Fail! {"exception":"[object] (App\\Exceptions\\RegistrationException(code: 0): Validation Fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:30)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->register()
@@ -8845,7 +8845,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-17 23:08:35] local.ERROR: Validation fail! {"exception":"[object] (App\\Exceptions\\LoginException(code: 0): Validation fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:68)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->login()
@@ -8887,7 +8887,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-17 23:09:23] local.ERROR: Validation fail! {"exception":"[object] (App\\Exceptions\\LoginException(code: 0): Validation fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:68)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->login()
@@ -8929,7 +8929,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-17 23:09:26] local.ERROR: Validation fail! {"exception":"[object] (App\\Exceptions\\LoginException(code: 0): Validation fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:68)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->login()
@@ -8971,7 +8971,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-17 23:09:27] local.ERROR: Validation fail! {"exception":"[object] (App\\Exceptions\\LoginException(code: 0): Validation fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:68)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->login()
@@ -9013,7 +9013,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-17 23:09:27] local.ERROR: Validation fail! {"exception":"[object] (App\\Exceptions\\LoginException(code: 0): Validation fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:68)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->login()
@@ -9055,7 +9055,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-17 23:09:27] local.ERROR: Validation fail! {"exception":"[object] (App\\Exceptions\\LoginException(code: 0): Validation fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:68)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->login()
@@ -9097,7 +9097,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-17 23:09:34] local.ERROR: Validation Fail! {"exception":"[object] (App\\Exceptions\\RegistrationException(code: 0): Validation Fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:30)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->register()
@@ -9139,7 +9139,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-17 23:14:49] local.ERROR: Validation Fail! {"exception":"[object] (App\\Exceptions\\RegistrationException(code: 0): Validation Fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:30)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->register()
@@ -9181,7 +9181,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-17 23:15:36] local.ERROR: Validation Fail! {"exception":"[object] (App\\Exceptions\\RegistrationException(code: 0): Validation Fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:30)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->register()
@@ -9223,7 +9223,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-17 23:16:27] local.ERROR: Validation Fail! {"exception":"[object] (App\\Exceptions\\RegistrationException(code: 0): Validation Fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:30)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->register()
@@ -9265,7 +9265,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-17 23:16:31] local.ERROR: Validation Fail! {"exception":"[object] (App\\Exceptions\\RegistrationException(code: 0): Validation Fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:30)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->register()
@@ -9307,7 +9307,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-17 23:16:34] local.ERROR: Validation Fail! {"exception":"[object] (App\\Exceptions\\RegistrationException(code: 0): Validation Fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:30)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->register()
@@ -9349,7 +9349,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-17 23:16:39] local.ERROR: Validation Fail! {"exception":"[object] (App\\Exceptions\\RegistrationException(code: 0): Validation Fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:30)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->register()
@@ -9391,7 +9391,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-17 23:16:48] local.ERROR: Validation Fail! {"exception":"[object] (App\\Exceptions\\RegistrationException(code: 0): Validation Fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:30)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->register()
@@ -9433,7 +9433,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-17 23:17:06] local.ERROR: Validation Fail! {"exception":"[object] (App\\Exceptions\\RegistrationException(code: 0): Validation Fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:30)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->register()
@@ -9475,7 +9475,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-17 23:19:09] local.ERROR: Validation Fail! {"exception":"[object] (App\\Exceptions\\RegistrationException(code: 0): Validation Fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:30)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->register()
@@ -9517,7 +9517,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-17 23:19:29] local.ERROR: Validation Fail! {"exception":"[object] (App\\Exceptions\\RegistrationException(code: 0): Validation Fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:30)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->register()
@@ -9559,7 +9559,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-17 23:19:35] local.ERROR: Validation Fail! {"exception":"[object] (App\\Exceptions\\RegistrationException(code: 0): Validation Fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:30)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->register()
@@ -9601,7 +9601,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-17 23:21:38] local.ERROR: Validation Fail! {"exception":"[object] (App\\Exceptions\\RegistrationException(code: 0): Validation Fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:30)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->register()
@@ -9643,7 +9643,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-17 23:21:50] local.ERROR: Validation Fail! {"exception":"[object] (App\\Exceptions\\RegistrationException(code: 0): Validation Fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:30)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->register()
@@ -9685,7 +9685,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-17 23:22:41] local.ERROR: Validation fail! {"exception":"[object] (App\\Exceptions\\LoginException(code: 0): Validation fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:68)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->login()
@@ -9727,7 +9727,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-17 23:25:29] local.ERROR: Validation fail! {"exception":"[object] (App\\Exceptions\\LoginException(code: 0): Validation fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:68)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->login()
@@ -9769,7 +9769,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-17 23:25:37] local.ERROR: Incorrect password {"exception":"[object] (App\\Exceptions\\LoginException(code: 0): Incorrect password at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:77)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->login()
@@ -9811,7 +9811,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-17 23:26:06] local.ERROR: Incorrect password {"exception":"[object] (App\\Exceptions\\LoginException(code: 0): Incorrect password at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:77)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->login()
@@ -9853,7 +9853,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-17 23:26:09] local.ERROR: Incorrect password {"exception":"[object] (App\\Exceptions\\LoginException(code: 0): Incorrect password at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:77)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->login()
@@ -9895,7 +9895,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-17 23:45:17] local.ERROR: Validation fail! {"exception":"[object] (App\\Exceptions\\LoginException(code: 0): Validation fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:68)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->login()
@@ -9937,7 +9937,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-17 23:50:24] local.ERROR: Validation fail! {"exception":"[object] (App\\Exceptions\\LoginException(code: 0): Validation fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:68)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->login()
@@ -9979,7 +9979,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-17 23:51:07] local.ERROR: Validation fail! {"exception":"[object] (App\\Exceptions\\LoginException(code: 0): Validation fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:68)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->login()
@@ -10021,7 +10021,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-17 23:51:31] local.ERROR: Validation fail! {"exception":"[object] (App\\Exceptions\\LoginException(code: 0): Validation fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:68)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->login()
@@ -10063,7 +10063,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-17 23:51:39] local.ERROR: Validation fail! {"exception":"[object] (App\\Exceptions\\LoginException(code: 0): Validation fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:68)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->login()
@@ -10105,7 +10105,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-17 23:53:15] local.ERROR: Validation fail! {"exception":"[object] (App\\Exceptions\\LoginException(code: 0): Validation fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:68)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->login()
@@ -10147,7 +10147,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-17 23:53:35] local.ERROR: Validation fail! {"exception":"[object] (App\\Exceptions\\LoginException(code: 0): Validation fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:68)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->login()
@@ -10189,7 +10189,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-17 23:53:43] local.ERROR: Validation fail! {"exception":"[object] (App\\Exceptions\\LoginException(code: 0): Validation fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:68)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->login()
@@ -10231,7 +10231,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-17 23:53:47] local.ERROR: Validation fail! {"exception":"[object] (App\\Exceptions\\LoginException(code: 0): Validation fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:68)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->login()
@@ -10273,7 +10273,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-17 23:54:00] local.ERROR: Validation fail! {"exception":"[object] (App\\Exceptions\\LoginException(code: 0): Validation fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:68)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->login()
@@ -10315,7 +10315,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-18 00:22:35] local.ERROR: Validation fail! {"exception":"[object] (App\\Exceptions\\LoginException(code: 0): Validation fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:68)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->login()
@@ -10357,7 +10357,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-18 00:22:44] local.ERROR: Validation fail! {"exception":"[object] (App\\Exceptions\\LoginException(code: 0): Validation fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:68)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->login()
@@ -10399,7 +10399,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-18 00:22:48] local.ERROR: Validation fail! {"exception":"[object] (App\\Exceptions\\LoginException(code: 0): Validation fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:68)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->login()
@@ -10441,7 +10441,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-18 00:23:11] local.ERROR: Validation fail! {"exception":"[object] (App\\Exceptions\\LoginException(code: 0): Validation fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:68)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->login()
@@ -10483,7 +10483,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-18 00:23:29] local.ERROR: Validation fail! {"exception":"[object] (App\\Exceptions\\LoginException(code: 0): Validation fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:68)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->login()
@@ -10525,7 +10525,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-18 00:23:38] local.ERROR: Validation fail! {"exception":"[object] (App\\Exceptions\\LoginException(code: 0): Validation fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:68)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->login()
@@ -10567,7 +10567,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-18 00:23:46] local.ERROR: Validation fail! {"exception":"[object] (App\\Exceptions\\LoginException(code: 0): Validation fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:68)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->login()
@@ -10609,7 +10609,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-18 00:23:55] local.ERROR: Validation fail! {"exception":"[object] (App\\Exceptions\\LoginException(code: 0): Validation fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:68)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->login()
@@ -10651,7 +10651,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-18 00:24:01] local.ERROR: Validation fail! {"exception":"[object] (App\\Exceptions\\LoginException(code: 0): Validation fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:68)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->login()
@@ -10693,7 +10693,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-18 00:24:58] local.ERROR: Validation fail! {"exception":"[object] (App\\Exceptions\\LoginException(code: 0): Validation fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:68)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->login()
@@ -10735,7 +10735,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-18 00:25:06] local.ERROR: Validation fail! {"exception":"[object] (App\\Exceptions\\LoginException(code: 0): Validation fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:68)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->login()
@@ -10777,7 +10777,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-18 00:25:18] local.ERROR: Validation fail! {"exception":"[object] (App\\Exceptions\\LoginException(code: 0): Validation fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:68)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->login()
@@ -10819,7 +10819,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-18 00:25:25] local.ERROR: Validation fail! {"exception":"[object] (App\\Exceptions\\LoginException(code: 0): Validation fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:68)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->login()
@@ -10861,7 +10861,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-18 00:25:44] local.ERROR: Validation fail! {"exception":"[object] (App\\Exceptions\\LoginException(code: 0): Validation fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:68)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->login()
@@ -10903,7 +10903,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-18 00:26:11] local.ERROR: Validation fail! {"exception":"[object] (App\\Exceptions\\LoginException(code: 0): Validation fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:68)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->login()
@@ -10945,7 +10945,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-18 00:26:14] local.ERROR: Validation fail! {"exception":"[object] (App\\Exceptions\\LoginException(code: 0): Validation fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:68)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->login()
@@ -10987,7 +10987,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-18 00:59:25] local.ERROR: Validation fail! {"exception":"[object] (App\\Exceptions\\LoginException(code: 0): Validation fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:68)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->login()
@@ -11029,7 +11029,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-18 01:44:52] local.ERROR: Validation Fail! {"exception":"[object] (App\\Exceptions\\RegistrationException(code: 0): Validation Fail! at C:\\OpenServerH\\domains\\hotgamesPhp\\app\\Http\\Controllers\\AuthController.php:30)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->register()
@@ -11071,7 +11071,7 @@ Did you mean one of these?
 #36 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #38 {main}
-"} 
+"}
 [2021-11-18 02:07:25] local.ERROR: The "sameSite" parameter value is not valid. {"exception":"[object] (InvalidArgumentException(code: 0): The \"sameSite\" parameter value is not valid. at C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\symfony\\http-foundation\\Cookie.php:248)
 [stacktrace]
 #0 C:\\OpenServerH\\domains\\hotgamesPhp\\vendor\\symfony\\http-foundation\\Cookie.php(111): Symfony\\Component\\HttpFoundation\\Cookie->withSameSite()
@@ -11117,7 +11117,7 @@ Did you mean one of these?
 #40 C:\\OpenServerH\\domains\\hotgamesPhp\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #41 C:\\OpenServerH\\domains\\hotgamesPhp\\server.php(21): require_once('C:\\\\OpenServerH\\\\...')
 #42 {main}
-"} 
+"}
 [2021-11-17 22:42:55] local.ERROR: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it (SQL: select * from `users` where `username` = 122322 limit 1) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 2002): SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it (SQL: select * from `users` where `username` = 122322 limit 1) at C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:703)
 [stacktrace]
 #0 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(663): Illuminate\\Database\\Connection->runQueryCallback()
@@ -11231,7 +11231,7 @@ Did you mean one of these?
 #56 C:\\OpenServer\\domains\\hotgame\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #57 C:\\OpenServer\\domains\\hotgame\\server.php(21): require_once('C:\\\\OpenServer\\\\d...')
 #58 {main}
-"} 
+"}
 [2021-11-17 22:43:11] local.ERROR: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it (SQL: select * from `users` where `username` = 122322 limit 1) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 2002): SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it (SQL: select * from `users` where `username` = 122322 limit 1) at C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:703)
 [stacktrace]
 #0 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(663): Illuminate\\Database\\Connection->runQueryCallback()
@@ -11345,7 +11345,7 @@ Did you mean one of these?
 #56 C:\\OpenServer\\domains\\hotgame\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #57 C:\\OpenServer\\domains\\hotgame\\server.php(21): require_once('C:\\\\OpenServer\\\\d...')
 #58 {main}
-"} 
+"}
 [2021-11-17 22:43:56] local.ERROR: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it (SQL: select * from `users` where `username` = 122322 limit 1) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 2002): SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it (SQL: select * from `users` where `username` = 122322 limit 1) at C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:703)
 [stacktrace]
 #0 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(663): Illuminate\\Database\\Connection->runQueryCallback()
@@ -11459,7 +11459,7 @@ Did you mean one of these?
 #56 C:\\OpenServer\\domains\\hotgame\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #57 C:\\OpenServer\\domains\\hotgame\\server.php(21): require_once('C:\\\\OpenServer\\\\d...')
 #58 {main}
-"} 
+"}
 [2021-11-17 22:44:01] local.ERROR: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it (SQL: select * from `users` where `username` = 12232232 limit 1) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 2002): SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it (SQL: select * from `users` where `username` = 12232232 limit 1) at C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:703)
 [stacktrace]
 #0 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(663): Illuminate\\Database\\Connection->runQueryCallback()
@@ -11573,7 +11573,7 @@ Did you mean one of these?
 #56 C:\\OpenServer\\domains\\hotgame\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #57 C:\\OpenServer\\domains\\hotgame\\server.php(21): require_once('C:\\\\OpenServer\\\\d...')
 #58 {main}
-"} 
+"}
 [2021-11-17 22:44:33] local.ERROR: This email is already taken {"exception":"[object] (App\\Exceptions\\RegistrationException(code: 0): This email is already taken at C:\\OpenServer\\domains\\hotgame\\app\\Http\\Controllers\\AuthController.php:44)
 [stacktrace]
 #0 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->register()
@@ -11615,7 +11615,7 @@ Did you mean one of these?
 #36 C:\\OpenServer\\domains\\hotgame\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #37 C:\\OpenServer\\domains\\hotgame\\server.php(21): require_once('C:\\\\OpenServer\\\\d...')
 #38 {main}
-"} 
+"}
 [2021-11-17 23:04:12] local.ERROR: Message is empty! {"userId":7,"exception":"[object] (App\\Exceptions\\MessageException(code: 0): Message is empty! at C:\\OpenServer\\domains\\hotgame\\app\\Http\\Controllers\\MessageController.php:25)
 [stacktrace]
 #0 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\MessageController->mailMessage()
@@ -11659,7 +11659,7 @@ Did you mean one of these?
 #38 C:\\OpenServer\\domains\\hotgame\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #39 C:\\OpenServer\\domains\\hotgame\\server.php(21): require_once('C:\\\\OpenServer\\\\d...')
 #40 {main}
-"} 
+"}
 [2021-11-17 23:04:24] local.ERROR: Add [question] to fillable property to allow mass assignment on [App\Models\Question]. {"userId":7,"exception":"[object] (Illuminate\\Database\\Eloquent\\MassAssignmentException(code: 0): Add [question] to fillable property to allow mass assignment on [App\\Models\\Question]. at C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php:433)
 [stacktrace]
 #0 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(212): Illuminate\\Database\\Eloquent\\Model->fill()
@@ -11711,7 +11711,7 @@ Did you mean one of these?
 #46 C:\\OpenServer\\domains\\hotgame\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #47 C:\\OpenServer\\domains\\hotgame\\server.php(21): require_once('C:\\\\OpenServer\\\\d...')
 #48 {main}
-"} 
+"}
 [2021-11-17 23:05:57] local.ERROR: SQLSTATE[HY000]: General error: 1364 Field 'idUser' doesn't have a default value (SQL: insert into `questions` (`question`, `updated_at`, `created_at`) values (34rerwer23r234rwe rqwerqw reqwe rqwr123 weqr qwre qwer 12 31ew qrqwe r132 rqwe r123 rqwer qwe r, 2021-11-17 23:05:57, 2021-11-17 23:05:57)) {"userId":7,"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1364 Field 'idUser' doesn't have a default value (SQL: insert into `questions` (`question`, `updated_at`, `created_at`) values (34rerwer23r234rwe rqwerqw reqwe rqwr123 weqr qwre qwer 12 31ew qrqwe r132 rqwe r123 rqwer qwe r, 2021-11-17 23:05:57, 2021-11-17 23:05:57)) at C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:703)
 [stacktrace]
 #0 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(663): Illuminate\\Database\\Connection->runQueryCallback()
@@ -11833,7 +11833,7 @@ Did you mean one of these?
 #56 C:\\OpenServer\\domains\\hotgame\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #57 C:\\OpenServer\\domains\\hotgame\\server.php(21): require_once('C:\\\\OpenServer\\\\d...')
 #58 {main}
-"} 
+"}
 [2021-11-17 23:06:23] local.ERROR: SQLSTATE[HY000]: General error: 1364 Field 'idUser' doesn't have a default value (SQL: insert into `questions` (`question`, `updated_at`, `created_at`) values (34rerwer23r234rwe rqwerqw reqwe rqwr123 weqr qwre qwer 12 31ew qrqwe r132 rqwe r123 rqwer qwe r, 2021-11-17 23:06:23, 2021-11-17 23:06:23)) {"userId":7,"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1364 Field 'idUser' doesn't have a default value (SQL: insert into `questions` (`question`, `updated_at`, `created_at`) values (34rerwer23r234rwe rqwerqw reqwe rqwr123 weqr qwre qwer 12 31ew qrqwe r132 rqwe r123 rqwer qwe r, 2021-11-17 23:06:23, 2021-11-17 23:06:23)) at C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:703)
 [stacktrace]
 #0 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(663): Illuminate\\Database\\Connection->runQueryCallback()
@@ -11955,7 +11955,7 @@ Did you mean one of these?
 #56 C:\\OpenServer\\domains\\hotgame\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #57 C:\\OpenServer\\domains\\hotgame\\server.php(21): require_once('C:\\\\OpenServer\\\\d...')
 #58 {main}
-"} 
+"}
 [2021-11-17 23:42:50] local.ERROR: SQLSTATE[HY000]: General error: 1364 Field 'idUser' doesn't have a default value (SQL: insert into `questions` (`question`, `updated_at`, `created_at`) values (34rerwer23r234rwe rqwerqw reqwe rqwr123 weqr qwre qwer 12 31ew qrqwe r132 rqwe r123 rqwer qwe r, 2021-11-17 23:42:50, 2021-11-17 23:42:50)) {"userId":7,"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1364 Field 'idUser' doesn't have a default value (SQL: insert into `questions` (`question`, `updated_at`, `created_at`) values (34rerwer23r234rwe rqwerqw reqwe rqwr123 weqr qwre qwer 12 31ew qrqwe r132 rqwe r123 rqwer qwe r, 2021-11-17 23:42:50, 2021-11-17 23:42:50)) at C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:703)
 [stacktrace]
 #0 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(663): Illuminate\\Database\\Connection->runQueryCallback()
@@ -12077,7 +12077,7 @@ Did you mean one of these?
 #56 C:\\OpenServer\\domains\\hotgame\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #57 C:\\OpenServer\\domains\\hotgame\\server.php(21): require_once('C:\\\\OpenServer\\\\d...')
 #58 {main}
-"} 
+"}
 [2021-11-17 23:43:31] local.ERROR: SQLSTATE[HY000]: General error: 1364 Field 'idUser' doesn't have a default value (SQL: insert into `questions` (`question`, `updated_at`, `created_at`) values (34rerwer23r234rwe rqwerqw reqwe rqwr123 weqr qwre qwer 12 31ew qrqwe r132 rqwe r123 rqwer qwe r, 2021-11-17 23:43:31, 2021-11-17 23:43:31)) {"userId":7,"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1364 Field 'idUser' doesn't have a default value (SQL: insert into `questions` (`question`, `updated_at`, `created_at`) values (34rerwer23r234rwe rqwerqw reqwe rqwr123 weqr qwre qwer 12 31ew qrqwe r132 rqwe r123 rqwer qwe r, 2021-11-17 23:43:31, 2021-11-17 23:43:31)) at C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:703)
 [stacktrace]
 #0 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(663): Illuminate\\Database\\Connection->runQueryCallback()
@@ -12199,7 +12199,7 @@ Did you mean one of these?
 #56 C:\\OpenServer\\domains\\hotgame\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #57 C:\\OpenServer\\domains\\hotgame\\server.php(21): require_once('C:\\\\OpenServer\\\\d...')
 #58 {main}
-"} 
+"}
 [2021-11-17 23:44:35] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:444)
 [stacktrace]
 #0 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(739): Illuminate\\Routing\\UrlGenerator->route()
@@ -12235,7 +12235,207 @@ Did you mean one of these?
 #30 C:\\OpenServer\\domains\\hotgame\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #31 C:\\OpenServer\\domains\\hotgame\\server.php(21): require_once('C:\\\\OpenServer\\\\d...')
 #32 {main}
-"} 
+"}
+[2021-11-18 07:36:20] local.ERROR: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it (SQL: select * from `users` where `email` = 123@123 limit 1) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 2002): SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it (SQL: select * from `users` where `email` = 123@123 limit 1) at C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:703)
+[stacktrace]
+#0 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(663): Illuminate\\Database\\Connection->runQueryCallback()
+#1 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(367): Illuminate\\Database\\Connection->run()
+#2 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2351): Illuminate\\Database\\Connection->select()
+#3 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2339): Illuminate\\Database\\Query\\Builder->runSelect()
+#4 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2873): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
+#5 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2340): Illuminate\\Database\\Query\\Builder->onceWithColumns()
+#6 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(615): Illuminate\\Database\\Query\\Builder->get()
+#7 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(599): Illuminate\\Database\\Eloquent\\Builder->getModels()
+#8 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Concerns\\BuildsQueries.php(259): Illuminate\\Database\\Eloquent\\Builder->get()
+#9 C:\\OpenServer\\domains\\hotgame\\app\\Http\\Controllers\\AuthController.php(71): Illuminate\\Database\\Eloquent\\Builder->first()
+#10 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->login()
+#11 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(45): Illuminate\\Routing\\Controller->callAction()
+#12 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(262): Illuminate\\Routing\\ControllerDispatcher->dispatch()
+#13 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(205): Illuminate\\Routing\\Route->runController()
+#14 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(695): Illuminate\\Routing\\Route->run()
+#15 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(128): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}()
+#16 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#17 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle()
+#18 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(127): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#19 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(103): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequest()
+#20 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(55): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequestUsingNamedLimiter()
+#21 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Routing\\Middleware\\ThrottleRequests->handle()
+#22 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#23 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(697): Illuminate\\Pipeline\\Pipeline->then()
+#24 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(672): Illuminate\\Routing\\Router->runRouteWithinStack()
+#25 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(636): Illuminate\\Routing\\Router->runRoute()
+#26 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(625): Illuminate\\Routing\\Router->dispatchToRoute()
+#27 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(167): Illuminate\\Routing\\Router->dispatch()
+#28 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(128): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#29 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#30 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#31 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#32 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#33 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#34 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#35 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#36 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#37 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#38 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#39 C:\\OpenServer\\domains\\hotgame\\vendor\\fruitcake\\laravel-cors\\src\\HandleCors.php(52): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#40 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Fruitcake\\Cors\\HandleCors->handle()
+#41 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#42 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#43 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#44 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then()
+#45 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#46 C:\\OpenServer\\domains\\hotgame\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
+#47 C:\\OpenServer\\domains\\hotgame\\server.php(21): require_once('C:\\\\OpenServer\\\\d...')
+#48 {main}
+
+[previous exception] [object] (PDOException(code: 2002): SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it at C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\Connector.php:70)
+[stacktrace]
+#0 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\Connector.php(70): PDO->__construct()
+#1 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\Connector.php(46): Illuminate\\Database\\Connectors\\Connector->createPdoConnection()
+#2 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\MySqlConnector.php(24): Illuminate\\Database\\Connectors\\Connector->createConnection()
+#3 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\ConnectionFactory.php(184): Illuminate\\Database\\Connectors\\MySqlConnector->connect()
+#4 [internal function]: Illuminate\\Database\\Connectors\\ConnectionFactory->Illuminate\\Database\\Connectors\\{closure}()
+#5 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(1021): call_user_func()
+#6 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(1057): Illuminate\\Database\\Connection->getPdo()
+#7 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(433): Illuminate\\Database\\Connection->getReadPdo()
+#8 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(359): Illuminate\\Database\\Connection->getPdoForSelect()
+#9 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(696): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}()
+#10 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(663): Illuminate\\Database\\Connection->runQueryCallback()
+#11 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(367): Illuminate\\Database\\Connection->run()
+#12 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2351): Illuminate\\Database\\Connection->select()
+#13 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2339): Illuminate\\Database\\Query\\Builder->runSelect()
+#14 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2873): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
+#15 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2340): Illuminate\\Database\\Query\\Builder->onceWithColumns()
+#16 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(615): Illuminate\\Database\\Query\\Builder->get()
+#17 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(599): Illuminate\\Database\\Eloquent\\Builder->getModels()
+#18 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Concerns\\BuildsQueries.php(259): Illuminate\\Database\\Eloquent\\Builder->get()
+#19 C:\\OpenServer\\domains\\hotgame\\app\\Http\\Controllers\\AuthController.php(71): Illuminate\\Database\\Eloquent\\Builder->first()
+#20 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->login()
+#21 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(45): Illuminate\\Routing\\Controller->callAction()
+#22 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(262): Illuminate\\Routing\\ControllerDispatcher->dispatch()
+#23 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(205): Illuminate\\Routing\\Route->runController()
+#24 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(695): Illuminate\\Routing\\Route->run()
+#25 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(128): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}()
+#26 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#27 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle()
+#28 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(127): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#29 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(103): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequest()
+#30 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(55): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequestUsingNamedLimiter()
+#31 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Routing\\Middleware\\ThrottleRequests->handle()
+#32 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#33 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(697): Illuminate\\Pipeline\\Pipeline->then()
+#34 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(672): Illuminate\\Routing\\Router->runRouteWithinStack()
+#35 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(636): Illuminate\\Routing\\Router->runRoute()
+#36 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(625): Illuminate\\Routing\\Router->dispatchToRoute()
+#37 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(167): Illuminate\\Routing\\Router->dispatch()
+#38 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(128): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#39 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#40 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#41 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#42 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#43 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#44 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#45 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#46 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#47 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#48 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#49 C:\\OpenServer\\domains\\hotgame\\vendor\\fruitcake\\laravel-cors\\src\\HandleCors.php(52): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#50 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Fruitcake\\Cors\\HandleCors->handle()
+#51 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#52 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#53 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#54 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then()
+#55 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#56 C:\\OpenServer\\domains\\hotgame\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
+#57 C:\\OpenServer\\domains\\hotgame\\server.php(21): require_once('C:\\\\OpenServer\\\\d...')
+#58 {main}
+"}
+[2021-11-18 07:43:26] local.ERROR: Class "http\Cookie" not found {"userId":7,"exception":"[object] (Error(code: 0): Class \"http\\Cookie\" not found at C:\\OpenServer\\domains\\hotgame\\app\\Http\\Controllers\\AuthController.php:93)
+[stacktrace]
+#0 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->logout()
+#1 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(45): Illuminate\\Routing\\Controller->callAction()
+#2 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(262): Illuminate\\Routing\\ControllerDispatcher->dispatch()
+#3 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(205): Illuminate\\Routing\\Route->runController()
+#4 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(695): Illuminate\\Routing\\Route->run()
+#5 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(128): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}()
+#6 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#7 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle()
+#8 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(127): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#9 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(103): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequest()
+#10 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(55): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequestUsingNamedLimiter()
+#11 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Routing\\Middleware\\ThrottleRequests->handle()
+#12 C:\\OpenServer\\domains\\hotgame\\app\\Http\\Middleware\\Authenticate.php(30): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#13 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): App\\Http\\Middleware\\Authenticate->handle()
+#14 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#15 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(697): Illuminate\\Pipeline\\Pipeline->then()
+#16 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(672): Illuminate\\Routing\\Router->runRouteWithinStack()
+#17 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(636): Illuminate\\Routing\\Router->runRoute()
+#18 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(625): Illuminate\\Routing\\Router->dispatchToRoute()
+#19 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(167): Illuminate\\Routing\\Router->dispatch()
+#20 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(128): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#21 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#22 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#23 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#24 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#25 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#26 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#27 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#28 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#29 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#30 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#31 C:\\OpenServer\\domains\\hotgame\\vendor\\fruitcake\\laravel-cors\\src\\HandleCors.php(52): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#32 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Fruitcake\\Cors\\HandleCors->handle()
+#33 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#34 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#35 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#36 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then()
+#37 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#38 C:\\OpenServer\\domains\\hotgame\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
+#39 C:\\OpenServer\\domains\\hotgame\\server.php(21): require_once('C:\\\\OpenServer\\\\d...')
+#40 {main}
+"}
+[2021-11-26 21:42:09] local.ERROR: This username is taken {"exception":"[object] (App\\Exceptions\\RegistrationException(code: 0): This username is taken at C:\\OpenServer\\domains\\hotgame\\app\\Http\\Controllers\\AuthController.php:41)
+[stacktrace]
+#0 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AuthController->register()
+#1 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(45): Illuminate\\Routing\\Controller->callAction()
+#2 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(262): Illuminate\\Routing\\ControllerDispatcher->dispatch()
+#3 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(205): Illuminate\\Routing\\Route->runController()
+#4 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(695): Illuminate\\Routing\\Route->run()
+#5 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(128): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}()
+#6 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#7 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle()
+#8 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(127): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#9 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(103): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequest()
+#10 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(55): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequestUsingNamedLimiter()
+#11 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Routing\\Middleware\\ThrottleRequests->handle()
+#12 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#13 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(697): Illuminate\\Pipeline\\Pipeline->then()
+#14 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(672): Illuminate\\Routing\\Router->runRouteWithinStack()
+#15 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(636): Illuminate\\Routing\\Router->runRoute()
+#16 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(625): Illuminate\\Routing\\Router->dispatchToRoute()
+#17 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(167): Illuminate\\Routing\\Router->dispatch()
+#18 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(128): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#19 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#20 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#21 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#22 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#23 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#24 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#25 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#26 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#27 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#28 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#29 C:\\OpenServer\\domains\\hotgame\\vendor\\fruitcake\\laravel-cors\\src\\HandleCors.php(52): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#30 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Fruitcake\\Cors\\HandleCors->handle()
+#31 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#32 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#33 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#34 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then()
+#35 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#36 C:\\OpenServer\\domains\\hotgame\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
+#37 C:\\OpenServer\\domains\\hotgame\\server.php(21): require_once('C:\\\\OpenServer\\\\d...')
+#38 {main}
+"}
 [2021-11-17 23:46:14] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:444)
 [stacktrace]
 #0 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(739): Illuminate\\Routing\\UrlGenerator->route()
@@ -12271,7 +12471,7 @@ Did you mean one of these?
 #30 C:\\OpenServer\\domains\\hotgame\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #31 C:\\OpenServer\\domains\\hotgame\\server.php(21): require_once('C:\\\\OpenServer\\\\d...')
 #32 {main}
-"} 
+"}
 [2021-11-17 23:47:14] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:444)
 [stacktrace]
 #0 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(739): Illuminate\\Routing\\UrlGenerator->route()
@@ -12307,7 +12507,7 @@ Did you mean one of these?
 #30 C:\\OpenServer\\domains\\hotgame\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #31 C:\\OpenServer\\domains\\hotgame\\server.php(21): require_once('C:\\\\OpenServer\\\\d...')
 #32 {main}
-"} 
+"}
 [2021-11-17 23:47:25] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:444)
 [stacktrace]
 #0 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(739): Illuminate\\Routing\\UrlGenerator->route()
@@ -12343,7 +12543,7 @@ Did you mean one of these?
 #30 C:\\OpenServer\\domains\\hotgame\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #31 C:\\OpenServer\\domains\\hotgame\\server.php(21): require_once('C:\\\\OpenServer\\\\d...')
 #32 {main}
-"} 
+"}
 [2021-11-17 23:47:35] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:444)
 [stacktrace]
 #0 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(739): Illuminate\\Routing\\UrlGenerator->route()
@@ -12379,7 +12579,7 @@ Did you mean one of these?
 #30 C:\\OpenServer\\domains\\hotgame\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #31 C:\\OpenServer\\domains\\hotgame\\server.php(21): require_once('C:\\\\OpenServer\\\\d...')
 #32 {main}
-"} 
+"}
 [2021-11-17 23:48:57] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:444)
 [stacktrace]
 #0 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(739): Illuminate\\Routing\\UrlGenerator->route()
@@ -12415,7 +12615,7 @@ Did you mean one of these?
 #30 C:\\OpenServer\\domains\\hotgame\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #31 C:\\OpenServer\\domains\\hotgame\\server.php(21): require_once('C:\\\\OpenServer\\\\d...')
 #32 {main}
-"} 
+"}
 [2021-11-17 23:49:39] local.ERROR: SQLSTATE[HY000]: General error: 1364 Field 'idUser' doesn't have a default value (SQL: insert into `questions` (`question`, `updated_at`, `created_at`) values (34rerwer23r234rwe rqwerqw reqwe rqwr123 weqr qwre qwer 12 31ew qrqwe r132 rqwe r123 rqwer qwe r, 2021-11-17 23:49:39, 2021-11-17 23:49:39)) {"userId":7,"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1364 Field 'idUser' doesn't have a default value (SQL: insert into `questions` (`question`, `updated_at`, `created_at`) values (34rerwer23r234rwe rqwerqw reqwe rqwr123 weqr qwre qwer 12 31ew qrqwe r132 rqwe r123 rqwer qwe r, 2021-11-17 23:49:39, 2021-11-17 23:49:39)) at C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:703)
 [stacktrace]
 #0 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(663): Illuminate\\Database\\Connection->runQueryCallback()
@@ -12537,7 +12737,7 @@ Did you mean one of these?
 #56 C:\\OpenServer\\domains\\hotgame\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #57 C:\\OpenServer\\domains\\hotgame\\server.php(21): require_once('C:\\\\OpenServer\\\\d...')
 #58 {main}
-"} 
+"}
 [2021-11-17 23:50:50] local.ERROR: App\Http\Controllers\MessageController::mailMessage(): Return value must be of type Illuminate\Http\JsonResponse, Illuminate\Http\Response returned {"userId":7,"exception":"[object] (TypeError(code: 0): App\\Http\\Controllers\\MessageController::mailMessage(): Return value must be of type Illuminate\\Http\\JsonResponse, Illuminate\\Http\\Response returned at C:\\OpenServer\\domains\\hotgame\\app\\Http\\Controllers\\MessageController.php:27)
 [stacktrace]
 #0 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\MessageController->mailMessage()
@@ -12581,7 +12781,7 @@ Did you mean one of these?
 #38 C:\\OpenServer\\domains\\hotgame\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #39 C:\\OpenServer\\domains\\hotgame\\server.php(21): require_once('C:\\\\OpenServer\\\\d...')
 #40 {main}
-"} 
+"}
 [2021-11-17 23:51:11] local.ERROR: App\Http\Controllers\MessageController::mailMessage(): Return value must be of type Illuminate\Http\JsonResponse, App\Models\User returned {"userId":7,"exception":"[object] (TypeError(code: 0): App\\Http\\Controllers\\MessageController::mailMessage(): Return value must be of type Illuminate\\Http\\JsonResponse, App\\Models\\User returned at C:\\OpenServer\\domains\\hotgame\\app\\Http\\Controllers\\MessageController.php:27)
 [stacktrace]
 #0 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\MessageController->mailMessage()
@@ -12625,7 +12825,7 @@ Did you mean one of these?
 #38 C:\\OpenServer\\domains\\hotgame\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #39 C:\\OpenServer\\domains\\hotgame\\server.php(21): require_once('C:\\\\OpenServer\\\\d...')
 #40 {main}
-"} 
+"}
 [2021-11-17 23:52:11] local.ERROR: SQLSTATE[HY000]: General error: 1364 Field 'idUser' doesn't have a default value (SQL: insert into `questions` (`question`, `updated_at`, `created_at`) values (34rerwer23r234rwe rqwerqw reqwe rqwr123 weqr qwre qwer 12 31ew qrqwe r132 rqwe r123 rqwer qwe r, 2021-11-17 23:52:11, 2021-11-17 23:52:11)) {"userId":7,"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1364 Field 'idUser' doesn't have a default value (SQL: insert into `questions` (`question`, `updated_at`, `created_at`) values (34rerwer23r234rwe rqwerqw reqwe rqwr123 weqr qwre qwer 12 31ew qrqwe r132 rqwe r123 rqwer qwe r, 2021-11-17 23:52:11, 2021-11-17 23:52:11)) at C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:703)
 [stacktrace]
 #0 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(663): Illuminate\\Database\\Connection->runQueryCallback()
@@ -12747,7 +12947,7 @@ Did you mean one of these?
 #56 C:\\OpenServer\\domains\\hotgame\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #57 C:\\OpenServer\\domains\\hotgame\\server.php(21): require_once('C:\\\\OpenServer\\\\d...')
 #58 {main}
-"} 
+"}
 [2021-11-18 00:08:27] local.ERROR: SQLSTATE[HY000]: General error: 1364 Field 'idUser' doesn't have a default value (SQL: insert into `questions` (`question`, `updated_at`, `created_at`) values (34rerwer23r234rwe rqwerqw reqwe rqwr123 weqr qwre qwer 12 31ew qrqwe r132 rqwe r123 rqwer qwe r, 2021-11-18 00:08:27, 2021-11-18 00:08:27)) {"userId":7,"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1364 Field 'idUser' doesn't have a default value (SQL: insert into `questions` (`question`, `updated_at`, `created_at`) values (34rerwer23r234rwe rqwerqw reqwe rqwr123 weqr qwre qwer 12 31ew qrqwe r132 rqwe r123 rqwer qwe r, 2021-11-18 00:08:27, 2021-11-18 00:08:27)) at C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:703)
 [stacktrace]
 #0 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(663): Illuminate\\Database\\Connection->runQueryCallback()
@@ -12869,7 +13069,7 @@ Did you mean one of these?
 #56 C:\\OpenServer\\domains\\hotgame\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #57 C:\\OpenServer\\domains\\hotgame\\server.php(21): require_once('C:\\\\OpenServer\\\\d...')
 #58 {main}
-"} 
+"}
 [2021-11-18 00:09:05] local.ERROR: SQLSTATE[HY000]: General error: 1364 Field 'idUser' doesn't have a default value (SQL: insert into `questions` (`question`, `updated_at`, `created_at`) values (34rerwer23r234rwe rqwerqw reqwe rqwr123 weqr qwre qwer 12 31ew qrqwe r132 rqwe r123 rqwer qwe r, 2021-11-18 00:09:05, 2021-11-18 00:09:05)) {"userId":7,"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1364 Field 'idUser' doesn't have a default value (SQL: insert into `questions` (`question`, `updated_at`, `created_at`) values (34rerwer23r234rwe rqwerqw reqwe rqwr123 weqr qwre qwer 12 31ew qrqwe r132 rqwe r123 rqwer qwe r, 2021-11-18 00:09:05, 2021-11-18 00:09:05)) at C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:703)
 [stacktrace]
 #0 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(663): Illuminate\\Database\\Connection->runQueryCallback()
@@ -12991,7 +13191,7 @@ Did you mean one of these?
 #56 C:\\OpenServer\\domains\\hotgame\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #57 C:\\OpenServer\\domains\\hotgame\\server.php(21): require_once('C:\\\\OpenServer\\\\d...')
 #58 {main}
-"} 
+"}
 [2021-11-18 00:10:36] local.ERROR: SQLSTATE[HY000]: General error: 1364 Field 'idUser' doesn't have a default value (SQL: insert into `questions` (`question`, `updated_at`, `created_at`) values (34rerwer23r234rwe rqwerqw reqwe rqwr123 weqr qwre qwer 12 31ew qrqwe r132 rqwe r123 rqwer qwe r, 2021-11-18 00:10:36, 2021-11-18 00:10:36)) {"userId":7,"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1364 Field 'idUser' doesn't have a default value (SQL: insert into `questions` (`question`, `updated_at`, `created_at`) values (34rerwer23r234rwe rqwerqw reqwe rqwr123 weqr qwre qwer 12 31ew qrqwe r132 rqwe r123 rqwer qwe r, 2021-11-18 00:10:36, 2021-11-18 00:10:36)) at C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:703)
 [stacktrace]
 #0 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(663): Illuminate\\Database\\Connection->runQueryCallback()
@@ -13113,7 +13313,7 @@ Did you mean one of these?
 #56 C:\\OpenServer\\domains\\hotgame\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #57 C:\\OpenServer\\domains\\hotgame\\server.php(21): require_once('C:\\\\OpenServer\\\\d...')
 #58 {main}
-"} 
+"}
 [2021-11-18 00:10:54] local.ERROR: SQLSTATE[HY000]: General error: 1364 Field 'idUser' doesn't have a default value (SQL: insert into `questions` (`question`, `updated_at`, `created_at`) values (34rerwer23r234rwe rqwerqw reqwe rqwr123 weqr qwre qwer 12 31ew qrqwe r132 rqwe r123 rqwer qwe r, 2021-11-18 00:10:54, 2021-11-18 00:10:54)) {"userId":7,"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1364 Field 'idUser' doesn't have a default value (SQL: insert into `questions` (`question`, `updated_at`, `created_at`) values (34rerwer23r234rwe rqwerqw reqwe rqwr123 weqr qwre qwer 12 31ew qrqwe r132 rqwe r123 rqwer qwe r, 2021-11-18 00:10:54, 2021-11-18 00:10:54)) at C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:703)
 [stacktrace]
 #0 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(663): Illuminate\\Database\\Connection->runQueryCallback()
@@ -13235,7 +13435,7 @@ Did you mean one of these?
 #56 C:\\OpenServer\\domains\\hotgame\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #57 C:\\OpenServer\\domains\\hotgame\\server.php(21): require_once('C:\\\\OpenServer\\\\d...')
 #58 {main}
-"} 
+"}
 [2021-11-18 00:11:18] local.ERROR: SQLSTATE[HY000]: General error: 1364 Field 'idUser' doesn't have a default value (SQL: insert into `questions` (`question`, `updated_at`, `created_at`) values (34rerwer23r234rwe rqwerqw reqwe rqwr123 weqr qwre qwer 12 31ew qrqwe r132 rqwe r123 rqwer qwe r, 2021-11-18 00:11:18, 2021-11-18 00:11:18)) {"userId":7,"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1364 Field 'idUser' doesn't have a default value (SQL: insert into `questions` (`question`, `updated_at`, `created_at`) values (34rerwer23r234rwe rqwerqw reqwe rqwr123 weqr qwre qwer 12 31ew qrqwe r132 rqwe r123 rqwer qwe r, 2021-11-18 00:11:18, 2021-11-18 00:11:18)) at C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:703)
 [stacktrace]
 #0 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(663): Illuminate\\Database\\Connection->runQueryCallback()
@@ -13357,7 +13557,7 @@ Did you mean one of these?
 #56 C:\\OpenServer\\domains\\hotgame\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #57 C:\\OpenServer\\domains\\hotgame\\server.php(21): require_once('C:\\\\OpenServer\\\\d...')
 #58 {main}
-"} 
+"}
 [2021-11-18 00:11:30] local.ERROR: SQLSTATE[HY000]: General error: 1364 Field 'idUser' doesn't have a default value (SQL: insert into `questions` (`question`, `updated_at`, `created_at`) values (34rerwer23r234rwe rqwerqw reqwe rqwr123 weqr qwre qwer 12 31ew qrqwe r132 rqwe r123 rqwer qwe r, 2021-11-18 00:11:30, 2021-11-18 00:11:30)) {"userId":7,"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1364 Field 'idUser' doesn't have a default value (SQL: insert into `questions` (`question`, `updated_at`, `created_at`) values (34rerwer23r234rwe rqwerqw reqwe rqwr123 weqr qwre qwer 12 31ew qrqwe r132 rqwe r123 rqwer qwe r, 2021-11-18 00:11:30, 2021-11-18 00:11:30)) at C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:703)
 [stacktrace]
 #0 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(663): Illuminate\\Database\\Connection->runQueryCallback()
@@ -13479,7 +13679,7 @@ Did you mean one of these?
 #56 C:\\OpenServer\\domains\\hotgame\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #57 C:\\OpenServer\\domains\\hotgame\\server.php(21): require_once('C:\\\\OpenServer\\\\d...')
 #58 {main}
-"} 
+"}
 [2021-11-18 00:12:36] local.ERROR: SQLSTATE[HY000]: General error: 1364 Field 'idUser' doesn't have a default value (SQL: insert into `questions` (`question`, `updated_at`, `created_at`) values (34rerwer23r234rwe rqwerqw reqwe rqwr123 weqr qwre qwer 12 31ew qrqwe r132 rqwe r123 rqwer qwe r, 2021-11-18 00:12:36, 2021-11-18 00:12:36)) {"userId":7,"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1364 Field 'idUser' doesn't have a default value (SQL: insert into `questions` (`question`, `updated_at`, `created_at`) values (34rerwer23r234rwe rqwerqw reqwe rqwr123 weqr qwre qwer 12 31ew qrqwe r132 rqwe r123 rqwer qwe r, 2021-11-18 00:12:36, 2021-11-18 00:12:36)) at C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:703)
 [stacktrace]
 #0 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(663): Illuminate\\Database\\Connection->runQueryCallback()
@@ -13601,7 +13801,7 @@ Did you mean one of these?
 #56 C:\\OpenServer\\domains\\hotgame\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #57 C:\\OpenServer\\domains\\hotgame\\server.php(21): require_once('C:\\\\OpenServer\\\\d...')
 #58 {main}
-"} 
+"}
 [2021-11-18 00:17:33] local.ERROR: SQLSTATE[HY000]: General error: 1364 Field 'idUser' doesn't have a default value (SQL: insert into `questions` (`question`, `updated_at`, `created_at`) values (34rerwer23r234rwe rqwerqw reqwe rqwr123 weqr qwre qwer 12 31ew qrqwe r132 rqwe r123 rqwer qwe r, 2021-11-18 00:17:33, 2021-11-18 00:17:33)) {"userId":7,"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1364 Field 'idUser' doesn't have a default value (SQL: insert into `questions` (`question`, `updated_at`, `created_at`) values (34rerwer23r234rwe rqwerqw reqwe rqwr123 weqr qwre qwer 12 31ew qrqwe r132 rqwe r123 rqwer qwe r, 2021-11-18 00:17:33, 2021-11-18 00:17:33)) at C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:703)
 [stacktrace]
 #0 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(663): Illuminate\\Database\\Connection->runQueryCallback()
@@ -13717,7 +13917,7 @@ Did you mean one of these?
 #53 C:\\OpenServer\\domains\\hotgame\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #54 C:\\OpenServer\\domains\\hotgame\\server.php(21): require_once('C:\\\\OpenServer\\\\d...')
 #55 {main}
-"} 
+"}
 [2021-11-18 00:43:21] local.ERROR: SQLSTATE[HY000]: General error: 1364 Field 'idUser' doesn't have a default value (SQL: insert into `questions` (`question`, `updated_at`, `created_at`) values (34rerwer23r234rwe rqwerqw reqwe rqwr123 weqr qwre qwer 12 31ew qrqwe r132 rqwe r123 rqwer qwe r, 2021-11-18 00:43:21, 2021-11-18 00:43:21)) {"userId":7,"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1364 Field 'idUser' doesn't have a default value (SQL: insert into `questions` (`question`, `updated_at`, `created_at`) values (34rerwer23r234rwe rqwerqw reqwe rqwr123 weqr qwre qwer 12 31ew qrqwe r132 rqwe r123 rqwer qwe r, 2021-11-18 00:43:21, 2021-11-18 00:43:21)) at C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:703)
 [stacktrace]
 #0 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(663): Illuminate\\Database\\Connection->runQueryCallback()
@@ -13833,7 +14033,7 @@ Did you mean one of these?
 #53 C:\\OpenServer\\domains\\hotgame\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #54 C:\\OpenServer\\domains\\hotgame\\server.php(21): require_once('C:\\\\OpenServer\\\\d...')
 #55 {main}
-"} 
+"}
 [2021-11-18 00:50:25] local.ERROR: SQLSTATE[HY000]: General error: 1364 Field 'idUser' doesn't have a default value (SQL: insert into `questions` (`question`, `updated_at`, `created_at`) values (34rerwer23r234rwe rqwerqw reqwe rqwr123 weqr qwre qwer 12 31ew qrqwe r132 rqwe r123 rqwer qwe r, 2021-11-18 00:50:25, 2021-11-18 00:50:25)) {"userId":7,"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1364 Field 'idUser' doesn't have a default value (SQL: insert into `questions` (`question`, `updated_at`, `created_at`) values (34rerwer23r234rwe rqwerqw reqwe rqwr123 weqr qwre qwer 12 31ew qrqwe r132 rqwe r123 rqwer qwe r, 2021-11-18 00:50:25, 2021-11-18 00:50:25)) at C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:703)
 [stacktrace]
 #0 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(663): Illuminate\\Database\\Connection->runQueryCallback()
@@ -13949,7 +14149,7 @@ Did you mean one of these?
 #53 C:\\OpenServer\\domains\\hotgame\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #54 C:\\OpenServer\\domains\\hotgame\\server.php(21): require_once('C:\\\\OpenServer\\\\d...')
 #55 {main}
-"} 
+"}
 [2021-11-18 00:51:07] local.ERROR: SQLSTATE[HY000]: General error: 1364 Field 'idUser' doesn't have a default value (SQL: insert into `questions` (`question`, `updated_at`, `created_at`) values (34rerwer23r234rwe rqwerqw reqwe rqwr123 weqr qwre qwer 12 31ew qrqwe r132 rqwe r123 rqwer qwe r, 2021-11-18 00:51:07, 2021-11-18 00:51:07)) {"userId":7,"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1364 Field 'idUser' doesn't have a default value (SQL: insert into `questions` (`question`, `updated_at`, `created_at`) values (34rerwer23r234rwe rqwerqw reqwe rqwr123 weqr qwre qwer 12 31ew qrqwe r132 rqwe r123 rqwer qwe r, 2021-11-18 00:51:07, 2021-11-18 00:51:07)) at C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:703)
 [stacktrace]
 #0 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(663): Illuminate\\Database\\Connection->runQueryCallback()
@@ -14071,7 +14271,7 @@ Did you mean one of these?
 #56 C:\\OpenServer\\domains\\hotgame\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #57 C:\\OpenServer\\domains\\hotgame\\server.php(21): require_once('C:\\\\OpenServer\\\\d...')
 #58 {main}
-"} 
+"}
 [2021-11-18 00:51:49] local.ERROR: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`hotgamez`.`questions`, CONSTRAINT `questions_iduser_foreign` FOREIGN KEY (`idUser`) REFERENCES `users` (`id`)) (SQL: insert into `questions` (`question`, `updated_at`, `created_at`) values (34rerwer23r234rwe rqwerqw reqwe rqwr123 weqr qwre qwer 12 31ew qrqwe r132 rqwe r123 rqwer qwe r, 2021-11-18 00:51:49, 2021-11-18 00:51:49)) {"userId":7,"exception":"[object] (Illuminate\\Database\\QueryException(code: 23000): SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`hotgamez`.`questions`, CONSTRAINT `questions_iduser_foreign` FOREIGN KEY (`idUser`) REFERENCES `users` (`id`)) (SQL: insert into `questions` (`question`, `updated_at`, `created_at`) values (34rerwer23r234rwe rqwerqw reqwe rqwr123 weqr qwre qwer 12 31ew qrqwe r132 rqwe r123 rqwer qwe r, 2021-11-18 00:51:49, 2021-11-18 00:51:49)) at C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:703)
 [stacktrace]
 #0 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(663): Illuminate\\Database\\Connection->runQueryCallback()
@@ -14193,7 +14393,7 @@ Did you mean one of these?
 #56 C:\\OpenServer\\domains\\hotgame\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #57 C:\\OpenServer\\domains\\hotgame\\server.php(21): require_once('C:\\\\OpenServer\\\\d...')
 #58 {main}
-"} 
+"}
 [2021-11-18 00:52:02] local.ERROR: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`hotgamez`.`questions`, CONSTRAINT `questions_iduser_foreign` FOREIGN KEY (`idUser`) REFERENCES `users` (`id`)) (SQL: insert into `questions` (`question`, `updated_at`, `created_at`) values (34rerwer23r234rwe rqwerqw reqwe rqwr123 weqr qwre qwer 12 31ew qrqwe r132 rqwe r123 rqwer qwe r, 2021-11-18 00:52:02, 2021-11-18 00:52:02)) {"userId":7,"exception":"[object] (Illuminate\\Database\\QueryException(code: 23000): SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`hotgamez`.`questions`, CONSTRAINT `questions_iduser_foreign` FOREIGN KEY (`idUser`) REFERENCES `users` (`id`)) (SQL: insert into `questions` (`question`, `updated_at`, `created_at`) values (34rerwer23r234rwe rqwerqw reqwe rqwr123 weqr qwre qwer 12 31ew qrqwe r132 rqwe r123 rqwer qwe r, 2021-11-18 00:52:02, 2021-11-18 00:52:02)) at C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:703)
 [stacktrace]
 #0 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(663): Illuminate\\Database\\Connection->runQueryCallback()
@@ -14315,7 +14515,7 @@ Did you mean one of these?
 #56 C:\\OpenServer\\domains\\hotgame\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #57 C:\\OpenServer\\domains\\hotgame\\server.php(21): require_once('C:\\\\OpenServer\\\\d...')
 #58 {main}
-"} 
+"}
 [2021-11-18 00:53:26] local.ERROR: Undefined property: Illuminate\Auth\AuthManager::$id {"userId":7,"exception":"[object] (ErrorException(code: 0): Undefined property: Illuminate\\Auth\\AuthManager::$id at C:\\OpenServer\\domains\\hotgame\\app\\Http\\Controllers\\MessageController.php:33)
 [stacktrace]
 #0 C:\\OpenServer\\domains\\hotgame\\app\\Http\\Controllers\\MessageController.php(33): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -14360,7 +14560,7 @@ Did you mean one of these?
 #39 C:\\OpenServer\\domains\\hotgame\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #40 C:\\OpenServer\\domains\\hotgame\\server.php(21): require_once('C:\\\\OpenServer\\\\d...')
 #41 {main}
-"} 
+"}
 [2021-11-18 00:53:38] local.ERROR: SQLSTATE[HY000]: General error: 1364 Field 'idUser' doesn't have a default value (SQL: insert into `questions` (`question`, `updated_at`, `created_at`) values (34rerwer23r234rwe rqwerqw reqwe rqwr123 weqr qwre qwer 12 31ew qrqwe r132 rqwe r123 rqwer qwe r, 2021-11-18 00:53:38, 2021-11-18 00:53:38)) {"userId":7,"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1364 Field 'idUser' doesn't have a default value (SQL: insert into `questions` (`question`, `updated_at`, `created_at`) values (34rerwer23r234rwe rqwerqw reqwe rqwr123 weqr qwre qwer 12 31ew qrqwe r132 rqwe r123 rqwer qwe r, 2021-11-18 00:53:38, 2021-11-18 00:53:38)) at C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:703)
 [stacktrace]
 #0 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(663): Illuminate\\Database\\Connection->runQueryCallback()
@@ -14482,7 +14682,7 @@ Did you mean one of these?
 #56 C:\\OpenServer\\domains\\hotgame\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #57 C:\\OpenServer\\domains\\hotgame\\server.php(21): require_once('C:\\\\OpenServer\\\\d...')
 #58 {main}
-"} 
+"}
 [2021-11-18 00:56:10] local.ERROR: SQLSTATE[HY000]: General error: 1364 Field 'idUser' doesn't have a default value (SQL: insert into `questions` (`question`, `updated_at`, `created_at`) values (34rerwer23r234rwe rqwerqw reqwe rqwr123 weqr qwre qwer 12 31ew qrqwe r132 rqwe r123 rqwer qwe r, 2021-11-18 00:56:10, 2021-11-18 00:56:10)) {"userId":7,"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1364 Field 'idUser' doesn't have a default value (SQL: insert into `questions` (`question`, `updated_at`, `created_at`) values (34rerwer23r234rwe rqwerqw reqwe rqwr123 weqr qwre qwer 12 31ew qrqwe r132 rqwe r123 rqwer qwe r, 2021-11-18 00:56:10, 2021-11-18 00:56:10)) at C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:703)
 [stacktrace]
 #0 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(663): Illuminate\\Database\\Connection->runQueryCallback()
@@ -14604,7 +14804,7 @@ Did you mean one of these?
 #56 C:\\OpenServer\\domains\\hotgame\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #57 C:\\OpenServer\\domains\\hotgame\\server.php(21): require_once('C:\\\\OpenServer\\\\d...')
 #58 {main}
-"} 
+"}
 [2021-11-18 00:56:52] local.ERROR: SQLSTATE[HY000]: General error: 1364 Field 'idUser' doesn't have a default value (SQL: insert into `questions` (`question`, `updated_at`, `created_at`) values (34rerwer23r234rwe rqwerqw reqwe rqwr123 weqr qwre qwer 12 31ew qrqwe r132 rqwe r123 rqwer qwe r, 2021-11-18 00:56:52, 2021-11-18 00:56:52)) {"userId":7,"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1364 Field 'idUser' doesn't have a default value (SQL: insert into `questions` (`question`, `updated_at`, `created_at`) values (34rerwer23r234rwe rqwerqw reqwe rqwr123 weqr qwre qwer 12 31ew qrqwe r132 rqwe r123 rqwer qwe r, 2021-11-18 00:56:52, 2021-11-18 00:56:52)) at C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:703)
 [stacktrace]
 #0 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(663): Illuminate\\Database\\Connection->runQueryCallback()
@@ -14726,7 +14926,7 @@ Did you mean one of these?
 #56 C:\\OpenServer\\domains\\hotgame\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #57 C:\\OpenServer\\domains\\hotgame\\server.php(21): require_once('C:\\\\OpenServer\\\\d...')
 #58 {main}
-"} 
+"}
 [2021-11-18 00:59:31] local.ERROR: SQLSTATE[HY000]: General error: 1364 Field 'idUser' doesn't have a default value (SQL: insert into `questions` (`question`, `updated_at`, `created_at`) values (34rerwer23r234rwe rqwerqw reqwe rqwr123 weqr qwre qwer 12 31ew qrqwe r132 rqwe r123 rqwer qwe r, 2021-11-18 00:59:31, 2021-11-18 00:59:31)) {"userId":7,"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1364 Field 'idUser' doesn't have a default value (SQL: insert into `questions` (`question`, `updated_at`, `created_at`) values (34rerwer23r234rwe rqwerqw reqwe rqwr123 weqr qwre qwer 12 31ew qrqwe r132 rqwe r123 rqwer qwe r, 2021-11-18 00:59:31, 2021-11-18 00:59:31)) at C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:703)
 [stacktrace]
 #0 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(663): Illuminate\\Database\\Connection->runQueryCallback()
@@ -14848,7 +15048,7 @@ Did you mean one of these?
 #56 C:\\OpenServer\\domains\\hotgame\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #57 C:\\OpenServer\\domains\\hotgame\\server.php(21): require_once('C:\\\\OpenServer\\\\d...')
 #58 {main}
-"} 
+"}
 [2021-11-18 01:08:32] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:444)
 [stacktrace]
 #0 C:\\OpenServer\\domains\\hotgame\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(739): Illuminate\\Routing\\UrlGenerator->route()
@@ -14884,4 +15084,4 @@ Did you mean one of these?
 #30 C:\\OpenServer\\domains\\hotgame\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #31 C:\\OpenServer\\domains\\hotgame\\server.php(21): require_once('C:\\\\OpenServer\\\\d...')
 #32 {main}
-"} 
+"}

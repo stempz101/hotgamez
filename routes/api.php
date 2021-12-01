@@ -26,7 +26,7 @@ Route::get('/genres', [GameController::class, 'getGenres']);
 Route::middleware('auth:sanctum')->group(function (){
     Route::get('/user', [AuthController::class, 'user']);
     Route::get('/admin/control-panel/games', [AdminController::class, 'getGames']);
-
+    Route::post('/logout', [AuthController::class, 'logout']);
     Route::post('/about/message', [MessageController::class, 'mailMessage']);
 
 });

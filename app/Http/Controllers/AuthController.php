@@ -6,9 +6,11 @@ use App\Exceptions\ErrorCode;
 use App\Exceptions\LoginException;
 use App\Exceptions\RegistrationException;
 use App\Models\User;
+
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Cookie;
 use Illuminate\Support\Facades\Hash;
 
 
@@ -85,6 +87,15 @@ class AuthController extends Controller
     public function user()
     {
         return Auth::user();
+    }
+
+    public function logout(Request $request)
+    {
+        $cookie = Cookie::forget('jwt');
+        return response([
+            'message' => 'Success'
+        ])->withCookie($cookie);
+
     }
 
 
