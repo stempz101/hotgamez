@@ -11,8 +11,9 @@ use Illuminate\Http\Resources\Json\AnonymousResourceCollection;
 class FavoriteController extends Controller
 {
 
-    public function index(Request $request): AnonymousResourceCollection
+    public function getFavorites(Request $request): AnonymousResourceCollection
     {
+
         return FavoritesResource::collection(Favorite::select(['idGame', 'idUser', 'games.game'])->join('games', 'games.id', '=', 'idGame')
             ->where('idUser', $request->get('id'))->get());
     }

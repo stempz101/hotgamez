@@ -19,5 +19,5 @@ class FavoritesResource extends JsonResource
             'id' => $this->idGame,
             'game' => $this->game
             ];
-        }
+    }
 }

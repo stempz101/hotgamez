@@ -28,10 +28,10 @@ Route::middleware('auth:sanctum')->group(function (){
     Route::get('/admin/control-panel/games', [AdminController::class, 'getGames']);
     Route::post('/logout', [AuthController::class, 'logout']);
     Route::post('/about/message', [MessageController::class, 'mailMessage']);
+    Route::get('/favorites', [FavoriteController::class, 'getFavorites']);
 
 });
 
 Route::apiResources([
     'games' => GameController::class,
-    'favorites' => FavoriteController::class
 ]);
