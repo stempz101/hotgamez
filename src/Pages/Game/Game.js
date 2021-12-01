@@ -60,7 +60,7 @@ function Game() {
         <Layout>
             <div className="descriptionBox">
 
-                <button className="favorite">Добавить</button>
+                <button onClick={click} className="favorite">Добавить</button>
 
 
                 <div className="GameText">

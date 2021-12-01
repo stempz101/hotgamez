@@ -10,7 +10,27 @@
     padding: 30px;
 
 }
+.favorite {
+    position: relative;
+    left: 620px;
+    top: 270px;
+    height: 70px;
+    width: 300px;
+    outline: none;
+    border: none;
+    background-color: rgba(228, 63, 90, 1);
+    font-weight: bold;
+    font-size: 24px;
+    cursor: pointer;
+}
 
+.favorite:hover{
+    opacity: 0.9;
+}
+
+.favorite:active{
+    background-color: orangered;
+}
 .profile_data_box_down{
     position: relative;
     background: rgba(72, 126, 189, 0.7);

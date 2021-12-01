@@ -16,6 +16,8 @@ function Profile(){
 
     return (
         <Layout>
+            <button  className="favorite">Добавить</button>
+
             <div className={"profile_data_box_down2"}>
             </div>
             <div>
@@ -35,8 +37,10 @@ function Profile(){
                     <textarea placeholder={"Пароль"} className={"input"}></textarea>
                     <span className={"changeButt"}>  Изменить</span>
                 </div>
+
                 <br/>
                 <br/>
+
                 <span className={"profile_data_bottom_text"}>Для входа вы можете использовать ваши почту и пароль</span>
             </div>
 
@@ -68,6 +72,7 @@ function Profile(){
             </div>
         <div className={"profile_data_box_down2"}>
         </div>
+
         </Layout>
     )
 }
