@@ -18,4 +18,16 @@ class LoginException extends BaseAppException
      */
     protected $httpStatusCode = Response::HTTP_INTERNAL_SERVER_ERROR;
     protected $errorCode = ErrorCode::LOGIN_ERROR;
+
+    /**
+     * @param int $httpStatusCode
+     * @param int $errorCode
+     */
+
+    public function __construct(string $message, int $errorCode)
+    {
+        $this->message = $message;
+        $this->errorCode = $errorCode;
+    }
+
 }

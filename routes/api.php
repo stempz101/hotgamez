@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AdminController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\FavoriteController;
 use App\Http\Controllers\GameController;
@@ -17,11 +18,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
-});
 Route::post('/register', [AuthController::class, 'register']);
-Route::get('/login', [AuthController::class, 'login']);
+Route::post('/login', [AuthController::class, 'login']);
+Route::get('/genres', [GameController::class, 'getGenres']);
+
+Route::middleware('auth:sanctum')->group(function (){
+    Route::get('/user', [AuthController::class, 'user']);
+    Route::get('/admin/control-panel/games', [AdminController::class, 'getGames']);
+});
+
 Route::apiResources([
     'games' => GameController::class,
     'favorites' => FavoriteController::class
