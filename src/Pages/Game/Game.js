@@ -26,6 +26,32 @@ function Game() {
 
     })
 
+    function click() {
+
+        this.setState({ isLoading: true });
+
+        axios.post(`http://127.0.0.1:8000/api//game/${id}/action-favorite`,{withCredentials : true, headers: {'Access-Control-Allow-Origin': '*', 'Content-Type': 'application/json'}})
+            .then((response) => {
+                this.setState({ data: response.data, isLoading: false });
+            })
+            .catch((err) => {
+                this.setState({ data: err, isLoading: false });
+            });
+    }
+
+
+        React.useEffect(() => {
+            axios.post(`http://127.0.0.1:8000/api//game/${id}/action-favorite`, {
+                withCredentials: true,
+                headers: {'Access-Control-Allow-Origin': '*', 'Content-Type': 'application/json'}
+            })
+
+                .then(res => {
+                    setGame(res.data.data)
+                })
+
+        })
+
 
 
 
@@ -33,6 +59,8 @@ function Game() {
 
         <Layout>
             <div className="descriptionBox">
+                <button className="favorite">Добавить</button>
+
                 <div className="GameText">
                     <h1> {game.game}</h1>
                     <a>{game.short_description}</a>
