@@ -142,7 +142,7 @@ function Game() {
             <a classname ="articlePC">   32MB Direct3D Compatible video card with 32-bit</a><br/>
             <a className="articlePC">     color support and DirectX 8.1 </a><br/><br/>
             <a classname ="articlePC">   1GB free hard disk space</a>
-            </div>
+            </div><br/>
         </div>
 
 
