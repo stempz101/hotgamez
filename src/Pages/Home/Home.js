@@ -24,7 +24,7 @@ function click() {
 
 function Home() {
     const history = useHistory();
-    const navigateTo = () => history.push('/about');//eg.history.push('/login');
+    const navigateTo = () => history.push('/game');//eg.history.push('/login');
 
 
     const [search, setSearch] = useState(''); //add this line
@@ -66,7 +66,7 @@ function Home() {
     return (
 
         <Layout>
-            <button onClick={navigateTo}> click me</button>
+
             <div className='game-table-control-container'>
 
                 <div className='games-table-control'>

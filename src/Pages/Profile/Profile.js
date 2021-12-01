@@ -17,20 +17,23 @@ function Profile(){
     let lul = "sda"
     return (
         <Layout>
+            <div className={"profile_data_box_down2"}>
+            </div>
+            <div>
             <div className={"profile_data_box_up"}>
                 <span className={"profText"}>Настройки профиля</span>
                 <div className={"inputRow"}>
-                    <textarea placeholder={"Имя"} className={"name"}></textarea>
+                    <textarea placeholder={"Имя"} className={"input"}></textarea>
                     <span className={"changeButt"}>  Изменить</span>
                 </div>
                 <br/>
                 <div className={"inputRow"}>
-                    <textarea placeholder={"mail@gmail.com"} className={"mail"}></textarea>
+                    <textarea placeholder={"mail@gmail.com"} className={"input"}></textarea>
                     <span className={"changeButt"}>  Изменить</span>
                 </div>
                 <br/>
                 <div className={"inputRow"}>
-                    <textarea placeholder={"Пароль"} className={"password"}></textarea>
+                    <textarea placeholder={"Пароль"} className={"input"}></textarea>
                     <span className={"changeButt"}>  Изменить</span>
                 </div>
                 <br/>
@@ -63,6 +66,9 @@ function Profile(){
                     <span>0</span>
                 </div>
             </div>
+            </div>
+        <div className={"profile_data_box_down2"}>
+        </div>
         </Layout>
     )
 }

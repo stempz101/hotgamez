@@ -1,51 +1,68 @@
+
 .profile_data_box_up{
     position: relative;
     background: rgba(72, 126, 189, 0.7);
-    border-radius: 5px;
-    width: 21%;
-    height: 390px;
+    border-radius: 20px;
+    width: 40%;
+    height: 400px;
     margin-top: 0%;
     top : 5px;
+    padding: 30px;
+
 }
 
 .profile_data_box_down{
     position: relative;
     background: rgba(72, 126, 189, 0.7);
-    border-radius: 5px;
-    width: 21%;
-    height: 390px;
-    margin-top: 4%;
+    border-radius: 20px;
+    width: 40%;
+    height: 400px;
+    margin-top: 10%;
+    bottom : 560px;
+    left: 1000px;
+    padding: 30px;
+
+}
+.profile_data_box_down2 {
+    position: relative;
+
+    height: 50px;
+    width: 10px;
+
     bottom : 5px;
+    display:block;
+    visibility: hidden;
 }
-
 @media (max-width: 300px) {
-    .name{
+    .input{
         resize: none;
         width : 100px;
         height : 100px;
     }
 }
+.input{
+    border-radius: 10px;
+    color: black;
+    padding-left: 10px;
+    text-align: left;
+    font-size: 24px;
+    margin-bottom: 20px;
 
-@media (max-width: 300px) {
-    .mail{
-        resize: none;
-        width : 100px;
-        height : 100px;
-    }
 }
 
-@media (max-width: 300px) {
-    .password{
-        resize: none;
-        width : 100px;
-        height : 100px;
-    }
+.profText{
+    position: relative;
+    top: -15px;
 }
 
-
+.profile_data_box_up > .textarea{
+        border-radius: 50px;
+}
 
 .changeButt{
     text-align: center;
+    position: relative;
+    top: -25px;
 }
 
 .row{
