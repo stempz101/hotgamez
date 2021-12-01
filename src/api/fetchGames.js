@@ -14,6 +14,11 @@ export default function fetchGames(startPos, tableControls, setFetchState, setGa
             url += '?price' + price
         }
 
+        if(!!newGames){
+            url += `?` + newGames
+        }
+
+
 
 
 
