@@ -78,15 +78,14 @@ function Home() {
                 <div className='games-table-control'>
 
                     <div className='games-table-control__buttons'>
-                        <button onClick={() => setTableControls(p => ({ ...p, popular: !p.popular }))}>Популярное</button>
-                        <button onClick={() => setTableControls(p => ({ ...p, newGames: !p.newGames }))}>Новое</button>
-                        <button onClick={() => setTableControls(p => ({ ...p, free: !p.free }))}>Бесплатные</button>
+                        <button onClick={() => setTableControls(p => ({ ...p, newGames: "new" }))}>Новое</button>
+                        <button onClick={() => setTableControls(p => ({ ...p, free: "free" }))}>Бесплатные</button>
 
                         <li className="dropdown">
                             <a href="javascript:void(0)" className="dropbtn" >Цена</a>
                             <div className="dropdown-content">
-                                <button className='pricebtn'>По возрастанию</button>
-                                <button className='pricebtn'>По убыванию</button>
+                                <button className='pricebtn' onClick={() => setTableControls(p => ({ ...p, price: "min" }))}>По возрастанию</button>
+                                <button className='pricebtn' onClick={() => setTableControls(p => ({ ...p, price: "max" }))}>По убыванию</button>
                             </div>
                         </li>
                     </div>
