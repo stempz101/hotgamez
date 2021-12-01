@@ -9,6 +9,8 @@
 }
 
 .GameText  {
+    position: relative;
+    bottom: 60px;
     width: 450px;
     padding: 20px;
 }
@@ -66,15 +68,16 @@ h1{
     left: 300px;
     top: 80px;
     font-size: 24px;
+    margin-left: 20px;
 
 }
 
-.buy {
+.favorite {
     position: relative;
-    left: 1145px;
-    top: 80px;
+    left: 620px;
+    top: 270px;
     height: 70px;
-    width: 120px;
+    width: 300px;
     outline: none;
     border: none;
     background-color: rgba(228, 63, 90, 1);
@@ -83,11 +86,11 @@ h1{
     cursor: pointer;
 }
 
-.buy:hover{
+.favorite:hover{
     opacity: 0.9;
 }
 
-.buy:active{
+.favorite:active{
   background-color: orangered;
 }
 
@@ -116,7 +119,7 @@ h1{
 
 .GamePrice{
     position: relative;
-    left: 900px;
+    left: 930px;
     top: 85px;
     color: #1BF128;
     font-size: 24px;
@@ -148,7 +151,7 @@ h1{
     height: auto;
     position: relative;
     left: 1100px;
-    bottom: 700px;
+    bottom: 300px;
 }
 
 h3{

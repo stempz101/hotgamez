@@ -59,7 +59,9 @@ function Game() {
 
         <Layout>
             <div className="descriptionBox">
+
                 <button className="favorite">Добавить</button>
+
 
                 <div className="GameText">
                     <h1> {game.game}</h1>
@@ -68,23 +70,24 @@ function Game() {
 
                 <img className="gameImage" src = {game.main_image}></img><br></br>
             </div>
-            <h2>Сравнение цен</h2>
 
             <div className="fake"></div>
+
             <div className="commonitem">
+                <h2>Сравнение цен</h2>
+
                 <div className="CompItem">
                     <button className="buy">Купить</button>
-                    <a className="GamePrice"> {game.prices && game.prices[0].price} </a>
+                    <a className="GamePrice"> {game.prices && game.prices[0].price}₴</a>
                     <a  className="ItemText">{game.game}</a>
 
 
 
                     <div className="CompPrice">
-                        <div className="StoreItem">ё
+                        <div className="StoreItem">
 
                             <div className="divItem">
-                                <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/1200px-Steam_icon_logo.svg.png"></img>
-
+                                <img src = {game.prices && game.prices[0].shop_image}></img>
                             </div>
                         </div>
                     </div>
@@ -92,14 +95,14 @@ function Game() {
 
                 <div className="CompItem">
                     <button className="buy">Купить</button>
-                    <a className="GamePrice">{game.prices && game.prices[1].price}?</a>
-                    <a  className="ItemText">{game.name} </a>
+                    <a className="GamePrice">{game.prices && game.prices[1].price}₴</a>
+                    <a  className="ItemText">{game.game} </a>
 
                     <div className="CompPrice">
                         <div className="StoreItem">
 
                             <div className="divItem">
-                                <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/1200px-Steam_icon_logo.svg.png"></img>
+                                <img src = {game.prices && game.prices[1].shop_image}></img>
 
                             </div>
                         </div>
