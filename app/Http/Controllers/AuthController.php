@@ -80,6 +80,7 @@ class AuthController extends Controller
         }
         $token = $user->createToken('token')->plainTextToken;
 
+//        $cookie = cookie('jwt',$token,60 * 24, null, null, true);
         $cookie = cookie('jwt',$token,60 * 24);
         return $this->successResponse($user)->withCookie($cookie);
     }

@@ -29,7 +29,7 @@ Route::middleware('auth:sanctum')->group(function (){
     Route::post('/logout', [AuthController::class, 'logout']);
     Route::post('/about/message', [MessageController::class, 'mailMessage']);
     Route::get('/favorites', [FavoriteController::class, 'getFavorites']);
-
+    Route::post('/game/{id}/actionFavorite', [FavoriteController::class, 'actionFavorite']);
 });
 
 Route::apiResources([
