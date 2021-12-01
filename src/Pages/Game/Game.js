@@ -34,91 +34,93 @@ function Game() {
 
     return (
         <Layout>
-           <div className="descriptionBox">
-               <div className="GameText">
+            <div className="descriptionBox">
+                <div className="GameText">
                     <h1> {game.name}</h1>
                     <a>{game.descr}</a>
-               </div>
+                </div>
 
-                   <img className="gameImage" src = {game.image}></img><br></br>
-               <h2>Сравнение цен</h2>
-           </div>
+                <img className="gameImage" src = {game.image}></img><br></br>
+                <h2>Сравнение цен</h2>
+            </div>
 
             <div className="fake"></div>
             <div className="commonitem">
-            <div className="CompItem">
-                    <button>Купить</button>
+                <div className="CompItem">
+                    <button className="buy">Купить</button>
                     <a className="GamePrice">{game.price}₴</a>
                     <a  className="ItemText">{game.name} </a>
 
-                <div className="CompPrice">
-                    <div className="StoreItem">
+                    <div className="CompPrice">
+                        <div className="StoreItem">
 
-                        <div className="divItem">
-                             <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/1200px-Steam_icon_logo.svg.png"></img>
+                            <div className="divItem">
+                                <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/1200px-Steam_icon_logo.svg.png"></img>
 
+                            </div>
                         </div>
+                    </div>
                 </div>
-            </div>
-            </div>
 
-            <div className="CompItem">
-                <button>Купить</button>
-                <a className="GamePrice">{game.price}₴</a>
-                <a  className="ItemText">{game.name} </a>
+                <div className="CompItem">
+                    <button className="buy">Купить</button>
+                    <a className="GamePrice">{game.price}₴</a>
+                    <a  className="ItemText">{game.name} </a>
 
-                <div className="CompPrice">
-                    <div className="StoreItem">
+                    <div className="CompPrice">
+                        <div className="StoreItem">
 
-                        <div className="divItem">
-                            <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/1200px-Steam_icon_logo.svg.png"></img>
+                            <div className="divItem">
+                                <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/1200px-Steam_icon_logo.svg.png"></img>
 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="CompItem">
+                    <button className="buy">Купить</button>
+                    <a className="GamePrice">{game.price}₴</a>
+                    <a  className="ItemText">{game.name} </a>
+
+                    <div className="CompPrice">
+                        <div className="StoreItem">
+
+                            <div className="divItem">
+                                <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/1200px-Steam_icon_logo.svg.png"></img>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="CompItem">
+                    <button className="buy">Купить</button>
+                    <a className="GamePrice">{game.price}₴</a>
+                    <a  className="ItemText">{game.name} </a>
+
+                    <div className="CompPrice">
+                        <div className="StoreItem">
+
+                            <div className="divItem">
+                                <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/1200px-Steam_icon_logo.svg.png"></img>
+
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div className="CompItem">
-                <button>Купить</button>
-                <a className="GamePrice">{game.price}₴</a>
-                <a  className="ItemText">{game.name} </a>
-
-                <div className="CompPrice">
-                    <div className="StoreItem">
-
-                        <div className="divItem">
-                            <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/1200px-Steam_icon_logo.svg.png"></img>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div className="CompItem">
-                <button>Купить</button>
-                <a className="GamePrice">{game.price}₴</a>
-                <a  className="ItemText">{game.name} </a>
-
-                <div className="CompPrice">
-                    <div className="StoreItem">
-
-                        <div className="divItem">
-                            <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/1200px-Steam_icon_logo.svg.png"></img>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </div>
             <div className="fake"></div>
             <div className="fake"></div>
-    <div className="AboutGame">
 
-         <h2>Об игре</h2>
-              <a className="Description">{game.descrFull}</a>
+            <div className="AboutGame">
+
+                <h2>Об игре</h2>
+                <a className="Description">{game.descrFull}</a>
 
 
-   </div>
+            </div>
 
             <div className="PC">
                 <br/>
@@ -131,19 +133,19 @@ function Game() {
                     <a className="articlePC">     Дата выпуска: 29 апреля 2002</a><br/><br/>
                 </div>
             </div><br/>
-        <div className="PC">
-            <br/>
-            <h2> Cистемные Требования</h2>
-            <div className="articles">
-            <a classname ="articlePC">   500 MHz Intel Pentium III,</a><br/><br/>
-            <a classname ="articlePC">   Celeron, or AMD Athlon</a><br/>
-            <a classname ="articlePC">   или AMD Ryzen 3 1300X</a><br/><br/>
-            <a classname ="articlePC">    256 МБ ОЗУ</a><br/><br/>
-            <a classname ="articlePC">   32MB Direct3D Compatible video card with 32-bit</a><br/>
-            <a className="articlePC">     color support and DirectX 8.1 </a><br/><br/>
-            <a classname ="articlePC">   1GB free hard disk space</a>
-            </div><br/>
-        </div>
+            <div className="PC">
+                <br/>
+                <h2> Cистемные Требования</h2>
+                <div className="articles">
+                    <a classname ="articlePC">   500 MHz Intel Pentium III,</a><br/><br/>
+                    <a classname ="articlePC">   Celeron, or AMD Athlon</a><br/>
+                    <a classname ="articlePC">   или AMD Ryzen 3 1300X</a><br/><br/>
+                    <a classname ="articlePC">    256 МБ ОЗУ</a><br/><br/>
+                    <a classname ="articlePC">   32MB Direct3D Compatible video card with 32-bit</a><br/>
+                    <a className="articlePC">     color support and DirectX 8.1 </a><br/><br/>
+                    <a classname ="articlePC">   1GB free hard disk space</a>
+                </div><br/>
+            </div>
 
 
         </Layout>

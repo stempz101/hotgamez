@@ -75,13 +75,7 @@ function Home() {
                         <button onClick={() => setTableControls(p => ({ ...p, popular: !p.popular }))}>Популярное</button>
                         <button onClick={() => setTableControls(p => ({ ...p, newGames: !p.newGames }))}>Новое</button>
                         <button onClick={() => setTableControls(p => ({ ...p, free: !p.free }))}>Бесплатные</button>
-                        <li className="dropdown">
-                            <a href="javascript:void(0)" className="dropbtn" >Цена</a>
-                            <div className="dropdown-content">
-                                <button className='pricebtn'>По возрастанию</button>
-                                <button className='pricebtn'>По убыванию</button>
-                            </div>
-                        </li>
+
 
                     </div>
                     <div className='games-table-control__list'>
@@ -98,7 +92,7 @@ function Home() {
                                 <GameTableItem item={item} />
                             </div>
                             :
-                            <div onClick={navigateTo} className='games-table-item' key={'game-' + index}>
+                            <div id="game" onClick={navigateTo} className='games-table-item' key={'game-' + index}>
                                 <GameTableItem item={item} />
                             </div>
                         }

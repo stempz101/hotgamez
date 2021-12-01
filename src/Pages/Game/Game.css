@@ -62,15 +62,15 @@ h1{
 }
 
 .ItemText{
-position: relative;
+    position: relative;
     left: 300px;
     top: 80px;
     font-size: 24px;
 
 }
 
-button {
-  position: relative;
+.buy {
+    position: relative;
     left: 1145px;
     top: 80px;
     height: 70px;
@@ -80,6 +80,15 @@ button {
     background-color: rgba(228, 63, 90, 1);
     font-weight: bold;
     font-size: 24px;
+    cursor: pointer;
+}
+
+.buy:hover{
+    opacity: 0.9;
+}
+
+.buy:active{
+  background-color: orangered;
 }
 
 
@@ -102,7 +111,7 @@ button {
 }
 
 .commonitem{
-position:relative;
+    position:relative;
     top: 30px;
 }
 .AboutGame{
