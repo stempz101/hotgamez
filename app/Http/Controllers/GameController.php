@@ -50,10 +50,10 @@ class GameController extends Controller
         //фильтры по добавлению
         elseif ($request->has('new')) {
             return MainResource::collection(Game::select(['games.id', 'games.game', 'games.image', 'prices.price', 'games.releaseDate'])
-                ->join('prices', 'games.id', '=', 'prices.idGame')->orderBy('releaseDate')->get()->unique('id'))->reverse();
+                ->join('prices', 'games.id', '=', 'prices.idGame')->orderBy('releaseDate', 'desc')->get()->unique('id'));
         } elseif ($request->has('old')) {
             return MainResource::collection(Game::select(['games.id', 'games.game', 'games.image', 'prices.price', 'games.releaseDate'])
-                ->join('prices', 'games.id', '=', 'prices.idGame')->orderBy('releaseDate')->get()->unique('id'));
+                ->join('prices', 'games.id', '=', 'prices.idGame')->orderBy('releaseDate', 'asc')->get()->unique('id'));
         }
 
         else {
