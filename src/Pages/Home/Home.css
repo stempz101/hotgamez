@@ -105,7 +105,7 @@
 
 
 li a, .dropbtn {
-    display: block;
+    display: inline-flex;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -117,7 +117,7 @@ li a:hover, .dropdown:hover .dropbtn {
 }
 
 li.dropdown {
-    display: inline;
+    display: inline-flex;
 }
 
 .dropdown-content {
@@ -141,5 +141,5 @@ li.dropdown {
 .dropdown-content a:hover {background-color: #f1f1f1;}
 
 .dropdown:hover .dropdown-content {
-    display: inline-block;
+    display: inline;
 }

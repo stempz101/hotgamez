@@ -4,7 +4,7 @@ function GameTableItem(props) {
     console.log(props)
     return (
         <>
-            <img src={props.item.image} alt={props.item.game} className='game-image'/>
+            <img src={props.item.image} alt={props.item.id} className='game-image'/>
             <div className='game-info'>
                 <span className='game-title'>{props.item.game}</span>
                 <div className='game-price-box'>

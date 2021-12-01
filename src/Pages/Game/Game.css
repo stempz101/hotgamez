@@ -1,10 +1,10 @@
 
 .gameImage {
-    width: 400px;
-    height: auto;
-    left: 500px;
-    position: relative;
-    bottom: 165px;
+    position: absolute;
+    height: 220px;
+    width: 450px;
+    left: 460px;
+    bottom: 30px;
     padding-right: 10px;
 }
 
@@ -97,7 +97,7 @@ h1{
     left: 900px;
     top: 85px;
     color: #1BF128;
-    font-size: 36px;
+    font-size: 24px;
     font-weight: bold;
 }
 

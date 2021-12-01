@@ -20,12 +20,18 @@ function click() {
         hidden = true;
     }
 }
+let id;
+
+function getId(){
+
+return id;
+}
+
 
 
 function Home() {
     const history = useHistory();
     const navigateTo = () => history.push('/game');//eg.history.push('/login');
-
 
     const [search, setSearch] = useState(''); //add this line
     const [startPos, setStartPos] = React.useState(0)
@@ -76,7 +82,13 @@ function Home() {
                         <button onClick={() => setTableControls(p => ({ ...p, newGames: !p.newGames }))}>Новое</button>
                         <button onClick={() => setTableControls(p => ({ ...p, free: !p.free }))}>Бесплатные</button>
 
-
+                        <li className="dropdown">
+                            <a href="javascript:void(0)" className="dropbtn" >Цена</a>
+                            <div className="dropdown-content">
+                                <button className='pricebtn'>По возрастанию</button>
+                                <button className='pricebtn'>По убыванию</button>
+                            </div>
+                        </li>
                     </div>
                     <div className='games-table-control__list'>
 
@@ -87,12 +99,13 @@ function Home() {
 
                 {games.map((item, index) => (
                     <>
-                        {index === games.length - 15 ?
+                        {index === games.length  ?
                             <div className='games-table-item' key={'game-' + index} ref={trigger}>
                                 <GameTableItem item={item} />
                             </div>
                             :
-                            <div id="game" onClick={navigateTo} className='games-table-item' key={'game-' + index}>
+                            <div id="game" onClick={(event)=>{id = event.target.alt;navigateTo()}} className='games-table-item' key={'game-' + index}>
+
                                 <GameTableItem item={item} />
                             </div>
                         }
@@ -106,4 +119,4 @@ function Home() {
 }
 
 
-export default Home
+export default {Home, getId}

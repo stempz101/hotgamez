@@ -14,7 +14,6 @@ function Profile(){
             })
     })
 
-    let lul = "sda"
     return (
         <Layout>
             <div className={"profile_data_box_down2"}>
