@@ -41,6 +41,12 @@ class GameController extends Controller
                 ->join('prices', 'games.id', '=', 'prices.idGame')->orderBy('price')->get()->unique('id')->reverse());
         }
 
+        //фильтр "бесплатно"
+        elseif ($request->has('free')) {
+            return MainResource::collection(Game::select(['games.id', 'games.game', 'games.image', 'prices.price'])
+                ->join('prices', 'games.id', '=', 'prices.idGame')->where('price', '0')->orderBy('price')->get()->unique('id')->reverse());
+        }
+
         //фильтры по добавлению
         elseif ($request->has('new')) {
             return MainResource::collection(Game::select(['games.id', 'games.game', 'games.image', 'prices.price', 'games.releaseDate'])
