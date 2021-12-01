@@ -17,7 +17,12 @@ class FavoritesResource extends JsonResource
     {
         return [
             'id' => $this->idGame,
-            'game' => $this->game
+            'game' => $this->game,
+            'min_price' => [
+                'price' => $this->price,
+                'currency' => 'UAH'
+            ],
+            'image' => $this->image
             ];
     }
 }
