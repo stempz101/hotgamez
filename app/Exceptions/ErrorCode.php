@@ -13,6 +13,7 @@ interface ErrorCode{
     public const THIS_USERNAME_IS_TAKEN = 1005;
     public const THIS_EMAIL_IS_ALREADY_TAKEN = 1006;
     public const USER_NOT_AUTHORIZED = 1007;
+    public const UPDATE_USER_DATA_FAIL = 1010;
 
     public const MESSAGE_FAIL = 2000;
     public const EMPTY_MESSAGE = 2001;
