@@ -22,7 +22,7 @@ class FavoritesResource extends JsonResource
                 'price' => $this->price,
                 'currency' => 'UAH'
             ],
-            'image' => $this->image
+            'image' => url('/') . '/images/previews/' . str_replace(' ', '%20', $this->image)
             ];
     }
 }
