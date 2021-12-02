@@ -8,6 +8,7 @@ import Game from "./Pages/Game/Game"
 import React from 'react';
 
 import './App.css'
+import Favorites from "./Pages/Favorites/Favorites";
 
 function App() {
   React.useEffect(() => {
@@ -21,6 +22,7 @@ function App() {
                 <Route path="/about" component={AboutUs}/>
                 <Route path="/profile" component={Profile}/>
                 <Route path="/game"  component={Game}/>
+                <Route path="/favorites" component={Favorites}/>
             </Switch>
         </Router>
     </div>

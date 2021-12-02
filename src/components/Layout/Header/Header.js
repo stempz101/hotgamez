@@ -39,7 +39,9 @@ function Header() {
             <Link to='/'><img src={Logo} alt=''/></Link>
             <div>
                 <HeaderInput />
-                <Link to='/'><img src={FavoriteIcon} alt=''/></Link>
+                <Link to='/favorites'><img src={FavoriteIcon} alt=''/></Link>
+
+
                 {<a href='#' onClick={useCallback( () => {
                     axios.get("http://127.0.0.1:8000/api/user", {
                         withCredentials: true,

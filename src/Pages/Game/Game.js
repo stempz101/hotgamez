@@ -26,31 +26,21 @@ function Game() {
 
     })
 
+
+
     function click() {
+        axios.post(`http://127.0.0.1:8000/api/game/${id}/action-favorite`, {},{withCredentials : true, headers: {'Access-Control-Allow-Origin': '*', 'Content-Type': 'application/json'}})
 
-        this.setState({ isLoading: true });
-
-        axios.post(`http://127.0.0.1:8000/api//game/${id}/action-favorite`,{withCredentials : true, headers: {'Access-Control-Allow-Origin': '*', 'Content-Type': 'application/json'}})
-            .then((response) => {
-                this.setState({ data: response.data, isLoading: false });
+            .then(res => {
+              alert(res)
             })
-            .catch((err) => {
-                this.setState({ data: err, isLoading: false });
-            });
-    }
-
-
-        React.useEffect(() => {
-            axios.post(`http://127.0.0.1:8000/api//game/${id}/action-favorite`, {
-                withCredentials: true,
-                headers: {'Access-Control-Allow-Origin': '*', 'Content-Type': 'application/json'}
+            .catch(error => {
+                alert(error)
             })
 
-                .then(res => {
-                    setGame(res.data.data)
-                })
 
-        })
+}
+
 
 
 
@@ -77,7 +67,12 @@ function Game() {
                 <h2>Сравнение цен</h2>
 
                 <div className="CompItem">
-                    <button className="buy">Купить</button>
+                    <button type="button"
+                            onClick={(e) => {
+                                e.preventDefault();
+                                {window.location.href=game.prices[0].link};
+                            }}
+                            className="buy">Купить</button>
                     <a className="GamePrice"> {game.prices && game.prices[0].price}₴</a>
                     <a  className="ItemText">{game.game}</a>
 
@@ -94,7 +89,12 @@ function Game() {
                 </div>
 
                 <div className="CompItem">
-                    <button className="buy">Купить</button>
+                    <button type="button"
+                            onClick={(e) => {
+                                e.preventDefault();
+                                {window.location.href=game.prices[1].link};
+                            }}
+                            className="buy">Купить</button>
                     <a className="GamePrice">{game.prices && game.prices[1].price}₴</a>
                     <a  className="ItemText">{game.game} </a>
 
