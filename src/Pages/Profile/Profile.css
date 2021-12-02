@@ -11,9 +11,9 @@
 
 }
 .favorite {
-    position: relative;
+    position: absolute;
     left: 620px;
-    top: 270px;
+    top: 600px;
     height: 70px;
     width: 300px;
     outline: none;
